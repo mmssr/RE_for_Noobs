@@ -1,481 +1,481 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <title>x86re</title>
-        <meta charset="utf-8">
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5V8ZMZCPP4"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-5V8ZMZCPP4');
-        </script>
-    </head>
-    <body style="background-color: black;">
-        <center>
-        <pre style="color: white; margin-left: 5%; margin-right: 5%; margin-top: 5%; font-size: 14px; font-family: 'Courier New', monospace;">
-┌──────┐┌─────────────────────────────────────────────────────────────────────────────────────────────────────────┐┌──────┐
-│┌─┐┌─┐││ idk_lol.exe                                                                                       _ □ x ││┌─┐┌─┐│
-││┌┘└┐│││┌───────── ▄███████ ── ▄███████  ▄█ ─ █▄ ─── ▄███████ ── ▄███████ ── ▄███████ ── ▄███████ ──────────────┐│││┌┘└┐││
-││└┐┌┘││││         ███   ███   ███   ███ ███   ███   ███   ███   ███   ███   ███   ███   ███   ███               ││││└┐┌┘││
-││┌┘└┐││││         ███   ███   ███   █▀  ███   ███   ███   █▀    ███   ███   ███   █▀    ███   █▀                ││││┌┘└┐││
-└┘└┐┌┘└┘││        ▄███▄▄▄██▀  ▄███▄▄     ███   ███  ▄███▄▄      ▄███▄▄▄██▀   ███        ▄███▄▄                   ││└┘└┐┌┘└┘
-┌─┐││┌─┐││       ▀▀███▀▀▀▀   ▀▀███▀▀     ███   ███ ▀▀███▀▀     ▀▀███▀▀▀▀   ▀██████████ ▀▀███▀▀                   ││┌─┐││┌─┐
-└┐││││┌┘││       ▀██████████   ███   █▄  ███   ███   ███   █▄  ▀██████████         ███   ███   █▄                ││└┐││││┌┘
-┌┘││││└┐││         ███   ███   ███   ███ ███   ███   ███   ███   ███   ███    ▄█   ███   ███   ███               ││┌┘││││└┐
-└┐││││┌┘││         ███   ███   █████████  ▀█████▀    █████████   ███   ███  ▄███████▀    █████████               ││└┐││││┌┘
-┌┘└┘└┘└┐││         ███   ███                                     ███   ███                                        │┌┘└┘└┘└┐
-│┌─┐┌─┐││  ▄███████ ███▄▄▄      ▄█████▄   ▄█  ███▄▄▄      ▄███████    ▄███████    ▄███████  ▄█  ███▄▄▄      ▄█████▄ ──┐┌─┐│
-││┌┘└┐│││ ███   ███ ███▀▀██▄   ███   ███ ███  ███▀▀██▄   ███   ███   ███   ███   ███   ███ ███  ███▀▀██▄   ███   ███ ┌┘└┐││
-││└┐┌┘│││ ███   █▀  ███  ███   ███   █▀  ███▌ ███  ███   ███   █▀    ███   █▀    ███   ███ ███▌ ███  ███   ███   █▀ │└┐┌┘││
-││┌┘└┐││ ▄███▄▄     ███  ███  ▄███       ███▌ ███  ███  ▄███▄▄      ▄███▄▄      ▄███▄▄▄██▀ ███▌ ███  ███  ▄███     ││┌┘└┐││
-└┘└┐┌┘└┘▀▀███▀▀     ███  ███ ▀▀███ ███▄  ███▌ ███  ███ ▀▀███▀▀     ▀▀███▀▀     ▀▀███▀▀▀▀   ███▌ ███  ███ ▀▀███ ███▄└┘└┐┌┘└┘
-┌─┐││┌─┐│ ███   █▄  ███  ███   ███   ███ ███  ███  ███   ███   █▄    ███   █▄  ▀██████████ ███  ███  ███   ███   ███ ┐││┌─┐
-└┐││││┌┘│ ███   ███ ███  ███   ███   ███ ███  ███  ███   ███   ███   ███   ███   ███   ███ ███  ███  ███   ███   ███ ││││┌┘
-┌┘││││└┐│ █████████  ▀█  █▀    ███████▀  █▀    ▀█  █▀    █████████   █████████   ███   ███ █▀    ▀█  █▀    ███████▀ ┘││││└┐
-└┐││││┌┘│                                                                        ███   ███                        │└┐││││┌┘
-┌┘└┘└┘└┐│  ▄███████  ▄█████▄     ▄███████     ███▄▄▄    ▄█████▄   ▄█████▄  ▀████████▄     ▄███████               ││┌┘└┘└┘└┐
-│┌─┐┌─┐││ ███   ███ ███   ███   ███   ███     ███▀▀██▄ ███   ███ ███   ███   ███   ███   ███   ███               │││┌─┐┌─┐│
-││┌┘└┐│││ ███   █▀  ███   ███   ███   ███     ███  ███ ███   ███ ███   ███   ███   ███   ███   █▀                ││││┌┘└┐││
-││└┐┌┘││ ▄███▄▄     ███   ███  ▄███▄▄▄██▀     ███  ███ ███   ███ ███   ███  ▄███▄▄██▀    ███                     ││││└┐┌┘││
-││┌┘└┐││▀▀███▀▀     ███   ███ ▀▀███▀▀▀▀       ███  ███ ███   ███ ███   ███ ▀▀███▀▀██▄  ▀██████████               ││││┌┘└┐││
-└┘└┐┌┘└┘│ ███       ███   ███ ▀██████████     ███  ███ ███   ███ ███   ███   ███   ██▄         ███               ││└┘└┐┌┘└┘
-┌─┐││┌─┐│ ███       ███   ███   ███   ███     ███  ███ ███   ███ ███   ███   ███   ███    ▄█   ███  @0x6D6172636F││┌─┐││┌─┐
-└┐││││┌┘│ ███ ────── ▀█████▀ ── ███ ─ ███ ───  ▀█  █▀ ─ ▀█████▀ ─ ▀█████▀  ▄████████▀ ─ ▄███████▀ ───────────────┘│└┐││││┌┘
-┌┘││││└┐└ ███ ───────────────── ███ ─ ███ ────────────────────────────────────────────────────────────────────────┘┌┘││││└┐
-└┐││││┌┘                                                                                                           └┐││││┌┘
-┌┘└┘└┘└┐ >>Introduction<<                                                                                          ┌┘└┘└┘└┐
-│┌─┐┌─┐│    At a high level, reverse engineering is learning how something works without knowledge of it. With     │┌─┐┌─┐│
-││┌┘└┐││    software, our goal is to understand the source code of a binary which we do not have the source code   ││┌┘└┐││
-││└┐┌┘││    to. As a question: "what does this do, and how does it do it?" Our desired outcomes come in varying    ││└┐┌┘││
-││┌┘└┐││    degrees, from essentially re-creating software to just understanding what certain functions are        ││┌┘└┐││
-└┘└┐┌┘└┘    performing. A large amount of analysis can be done by simply running and observing software, however   └┘└┐┌┘└┘
-┌─┐││┌─┐    this document is primarily about static analysis and examining the executable machine code. We gain    ┌─┐││┌─┐
-└┐││││┌┘    a detailed view of the binary because, simply put, we are looking at the exact instructions which are  └┐││││┌┘
-┌┘││││└┐    running on a CPU.                                                                                      ┌┘││││└┐
-└┐││││┌┘  >Why RE/Practical reasons                                                                                └┐││││┌┘
-┌┘└┘└┘└┐    You might be thinking that this sounds like a tedious and daunting exercise. While not incorrect,      ┌┘└┘└┘└┐
-│┌─┐┌─┐│    there are a few practical reasons to do so anyways. You may have a malware sample found on a network   │┌─┐┌─┐│
-││┌┘└┐││    which is sending encrypted outbound internet traffic and need to figure out what the traffic was. In   ││┌┘└┐││
-││└┐┌┘││    this situation, dynamic analysis may not give you any insight into the payload data. Alternatively,    ││└┐┌┘││
-││┌┘└┐││    de-compiling may not truly recreate the source code. While useful, de-compilers contain an element of  ││┌┘└┐││
-└┘└┐┌┘└┘    guesswork. Therefore, you may need to reverse engineer the binary. Additionally, you will see reverse  └┘└┐┌┘└┘
-┌─┐││┌─┐    engineering used in context with game hacking, DRM removal, CTFs, etc.                                 ┌─┐││┌─┐
-└┐││││┌┘  >What is the goal of this document                                                                       └┐││││┌┘
-┌┘││││└┐    In the short term, my goal is to introduce you to reverse engineering both conceptually and            ┌┘││││└┐
-└┐││││┌┘    practically. Due to the abstract and esoteric nature of RE as a field, most people are entirely        └┐││││┌┘
-┌┘└┘└┘└┐    unaware of its existence, much less exposed to an entry point. Personally, the most difficult period   ┌┘└┘└┘└┐
-│┌─┐┌─┐│    I had was finding training, gaining a methodology, and learning where to start. While there are        │┌─┐┌─┐│
-││┌┘└┐││    fantastic resources for doing so, finding them can be tough. Reversing is an extremely deep field due  ││┌┘└┐││
-││└┐┌┘││    to its ability to be applied to just about anything electronic, so consider this effort to be a diving ││└┐┌┘││
-││┌┘└┐││    board. Furthermore, it is a fantastic introduction to low level computing in general, where you can    ││┌┘└┐││
-└┘└┐┌┘└┘    leverage your knowledge for things like binary golf, exploit development, modern assembly development, └┘└┐┌┘└┘
-┌─┐││┌─┐    virus development, and more.                                                                           ┌─┐││┌─┐
-└┐││││┌┘    In the long term, my goal is to introduce a mindset. Most of my RE experience at the time of writing   └┐││││┌┘
-┌┘││││└┐    has been in CTFs. Often you are presented with bizarre problems you are unprepared for, with little    ┌┘││││└┐
-└┐││││┌┘    insight as to proceed. In order to solve these sorts of challenges, the following methodology          └┐││││┌┘
-┌┘└┘└┘└┐    becomes critical:                                                                                      ┌┘└┘└┘└┐
-│┌─┐┌─┐│        Failing attempts must be thought of iterative learning                                             │┌─┐┌─┐│
-││┌┘└┐││        "I don't understand X" must become "How do I learn more about X"                                   ││┌┘└┐││
-││└┐┌┘││        "Y is too complicated" must become "How do I break Y into smaller steps"                           ││└┐┌┘││
-││┌┘└┐││                                                                                                           ││┌┘└┐││
-└┘└┐┌┘└┘ >>Technical Prerequisites<<                                                                               └┘└┐┌┘└┘
-┌─┐││┌─┐  >Executables (aka Binaries)                                                                              ┌─┐││┌─┐
-└┐││││┌┘    At a high level, here is what is going on:                                                             └┐││││┌┘
-┌┘││││└┐        We have instructions for humans but need to make machine code that a computer can execute.         ┌┘││││└┐
-└┐││││┌┘        With a compiled language, higher level code such C is parsed and compiled into machine code.       └┐││││┌┘
-┌┘└┘└┘└┐  >Compiling can be thought of in a few steps:                                                             ┌┘└┘└┘└┐
-│┌─┐┌─┐│    A compiler takes the source code and converts it into machine language, such as an object file of      │┌─┐┌─┐│
-││┌┘└┐││    your source code.                                                                                      ││┌┘└┐││
-││└┐┌┘││    A linker combines this object file with other pre-compiled object files so that your symbols           ││└┐┌┘││
-││┌┘└┐││    (for example: identifiers for functions in libraries, global variables, etc) can be defined. When      ││┌┘└┐││
-└┘└┐┌┘└┘    writing code you will often use functions you did not actually define within your source code.         └┘└┐┌┘└┘
-┌─┐││┌─┐    The linker takes your undefined symbols and adds the correct addresses to these instructions;          ┌─┐││┌─┐
-└┐││││┌┘    outputting your executable file. As an example, imagine that you have some source code calling an      └┐││││┌┘
-┌┘││││└┐    exported DLL function. When that source code is compiled, the function call generates an external      ┌┘││││└┐
-└┐││││┌┘    function reference (since the DLL is not a part of your source code.) The linker then adds the         └┐││││┌┘
-┌┘└┘└┘└┐    information necessary for the reference to actually find this DLL code when the process is started.    ┌┘└┘└┘└┐
-│┌─┐┌─┐│                                                                                                           │┌─┐┌─┐│
-││┌┘└┐││        ┌───────────────┐                                                                                  ││┌┘└┐││
-││└┐┌┘││        │  source_code.c│                                                                                  ││└┐┌┘││
-││┌┘└┐││        ┌───────────────────────────────┐                                                                  ││┌┘└┐││
-└┘└┐┌┘└┘        │#include &lt;stdio.h>             │                                                                  └┘└┐┌┘└┘
-┌─┐││┌─┐        │int main()                     │                                                                  ┌─┐││┌─┐
-└┐││││┌┘        │{                              │                                                                  └┐││││┌┘
-┌┘││││└┐        │   printf( "hello world\n" );  │                                                                  ┌┘││││└┐
-└┐││││┌┘        │   return 0;                   │                                                                  └┐││││┌┘
-┌┘└┘└┘└┐        │}                              │                                                                  ┌┘└┘└┘└┐
-│┌─┐┌─┐│        └───────────────────────────────┘                                                                  │┌─┐┌─┐│
-││┌┘└┐││                 │                                                                                         ││┌┘└┐││
-││└┐┌┘││        ┌────────┴──────┐                                                                                  ││└┐┌┘││
-││┌┘└┐││        │       Compiler│                                                                                  ││┌┘└┐││
-└┘└┐┌┘└┘        └───────────────┘                                                                                  └┘└┐┌┘└┘
-┌─┐││┌─┐                 │                                                                                         ┌─┐││┌─┐
-└┐││││┌┘        ┌────────┴──────┐                                                                                  └┐││││┌┘
-┌┘││││└┐        │compiled_code.o│                                                                                  ┌┘││││└┐
-└┐││││┌┘        ┌───────────────────────────────┐                                                                  └┐││││┌┘
-┌┘└┘└┘└┐        │.file source_code.c            │                                                                  ┌┘└┘└┘└┐
-│┌─┐┌─┐│        │.LC0:                          │                                                                  │┌─┐┌─┐│
-││┌┘└┐││        │   .string "hello world"       │                                                                  ││┌┘└┐││
-││└┐┌┘││        │main:                          │                                                                  ││└┐┌┘││
-││┌┘└┐││        │   LEA ECX, [ESP+4]            │                                                                  ││┌┘└┐││
-└┘└┐┌┘└┘        │   AND ESP, -16                │                                                                  └┘└┐┌┘└┘
-┌─┐││┌─┐        │   PUSH DWORD PTR [ECX-4]      │                                                                  ┌─┐││┌─┐
-└┐││││┌┘        │   PUSH EBP                    │                                                                  └┐││││┌┘
-┌┘││││└┐        │   MOV EBP, ESP                │                                                                  ┌┘││││└┐
-└┐││││┌┘        │   PUSH ECX                    │                                                                  └┐││││┌┘
-┌┘└┘└┘└┐        │   SUB ESP, 4                  │                                                                  ┌┘└┘└┘└┐
-│┌─┐┌─┐│        │   SUB ESP, 12                 │                                                                  │┌─┐┌─┐│
-││┌┘└┐││        │   PUSH OFFSET FLAT:.LC0       │                                                                  ││┌┘└┐││
-││└┐┌┘││        │   CALL PUTS                   │                                                                  ││└┐┌┘││
-││┌┘└┐││        │   ADD ESP, 16                 │                                                                  ││┌┘└┐││
-└┘└┐┌┘└┘        │   MOV EAX, LC0                │                                                                  └┘└┐┌┘└┘
-┌─┐││┌─┐        │   MOV ECX, DWORD PTR [EBP-4]  │                                                                  ┌─┐││┌─┐
-└┐││││┌┘        │   LEAVE                       │                                                                  └┐││││┌┘
-┌┘││││└┐        │   LEA ESP, [ECX-4]            │                                                                  ┌┘││││└┐
-└┐││││┌┘        │   RET                         │                                                                  └┐││││┌┘
-┌┘└┘└┘└┐        └───────────────────────────────┘                                                                  ┌┘└┘└┘└┐
-│┌─┐┌─┐│                 │                                                                                         │┌─┐┌─┐│
-││┌┘└┐││        ┌────────┴──────┐   ┌───────────────┐                                                              ││┌┘└┐││
-││└┐┌┘││        │         Linker├───│  External DLLs│                                                              ││└┐┌┘││
-││┌┘└┐││        └───────────────┘   └───────────────┘                                                              ││┌┘└┐││
-└┘└┐┌┘└┘                 │                                                                                         └┘└┐┌┘└┘
-┌─┐││┌─┐        ┌────────┴──────┐                                                                                  ┌─┐││┌─┐
-└┐││││┌┘        │ executable.exe│                                                                                  └┐││││┌┘
-┌┘││││└┐        ┌────────────────────────────────┐                                                                 ┌┘││││└┐
-└┐││││┌┘        │4d 5a 90 00 03 00 00 00-04 00 00│                                                                 └┐││││┌┘
-┌┘└┘└┘└┐        │00 ff ff 00 00 b8 00 00 00 00 00│                                                                 ┌┘└┘└┘└┐
-│┌─┐┌─┐│        │00 00 00-40 00 00 00 00 00 00 00│                                                                 │┌─┐┌─┐│
-││┌┘└┐││        │...                             │                                                                 ││┌┘└┐││
-││└┐┌┘││        └────────────────────────────────┘                                                                 ││└┐┌┘││
-││┌┘└┐││                                                                                                           ││┌┘└┐││
-└┘└┐┌┘└┘    The compiled executable looks like gibberish to us compared to the previous source code. However,      └┘└┐┌┘└┘
-┌─┐││┌─┐    this won't stop us from our goals.                                                                     ┌─┐││┌─┐
-└┐││││┌┘    While we may describe the executable as "binary," typically we represent it in a shorter format,       └┐││││┌┘
-┌┘││││└┐    hex. An example of hex: B8 05 00 00 00.                                                                ┌┘││││└┐
-└┐││││┌┘    Assembly is just translating this directly to a more human readable format. "B8 05 00 00 00" directly  └┐││││┌┘
-┌┘└┘└┘└┐    corresponds to "MOV EAX, 05" (move the value 05 into register EAX). B8 directly corresponds to the     ┌┘└┘└┘└┐
-│┌─┐┌─┐│    physical circuits for this instruction on the processor. This performs a MOV operation that loads a    │┌─┐┌─┐│
-││┌┘└┐││    value into the physical 32-bit memory register on the processor that we are referring to as EAX. The   ││┌┘└┐││
-││└┐┌┘││    latter half of the hex instruction for B8 is "05 00 00 00". There are 32 bits allocated for this       ││└┐┌┘││
-││┌┘└┐││    value, but we only need a little of that to represent our value, hence the zeroes.                     ││┌┘└┐││
-└┘└┐┌┘└┘    Also note, the 05 is stored on the far left vs the far right. This is due to something referred to     └┘└┐┌┘└┘
-┌─┐││┌─┐    as "endianness," which you will want to learn more about later, but don't worry about that right now.  ┌─┐││┌─┐
-└┐││││┌┘    Just know that if the byte on the far left would represent the least significant bit it would be       └┐││││┌┘
-┌┘││││└┐    referred to as little-endian, and if the byte on the far left represented the most significant bit,    ┌┘││││└┐
-└┐││││┌┘    it would be referred to as big-endian. Were we to represent this as a big-endian value, the            └┐││││┌┘
-┌┘└┘└┘└┐    instruction in hex would be "B8 00 00 00 05." PE (.exe) files will always be little-endian, but know   ┌┘└┘└┘└┐
-│┌─┐┌─┐│    that other formats such as ELF may not be.                                                             │┌─┐┌─┐│
-││┌┘└┐││                                                                                                           ││┌┘└┐││
-││└┐┌┘││  >What happens when a program is run?                                                                     ││└┐┌┘││
-││┌┘└┐││    1. The program is assigned RAM, and the code/data it manipulates are loaded into RAM from storage.     ││┌┘└┐││
-└┘└┐┌┘└┘    2. An instruction is read from RAM by the CPU control unit.                                            └┘└┐┌┘└┘
-┌─┐││┌─┐    3. The instruction is executed by the CPU ALU using inputs from user or registers.                     ┌─┐││┌─┐
-└┐││││┌┘    4. The output is stored in registers or sent to a device.                                              └┐││││┌┘
-┌┘││││└┐    Repeat these steps until the program is done.                                                          ┌┘││││└┐
-└┐││││┌┘                                                                                                           └┐││││┌┘
-┌┘└┘└┘└┐                                  ┌─────────────┐   ┌────────────────┐                                     ┌┘└┘└┘└┐
-│┌─┐┌─┐│                                ┌─┤ Control Unit│───┤Arith Logic Unit│─┐                                   │┌─┐┌─┐│
-││┌┘└┐││                                │ └─────────────┘   └────────────────┘ │                                   ││┌┘└┐││
-││└┐┌┘││        ┌────────────────────┐  │                                      │ ┌─────────────────────┐           ││└┐┌┘││
-││┌┘└┐││        │Inst fetch from RAM │  │ ┌──────────────────────────────────┐ │ │Result stored to RAM │           ││┌┘└┐││
-└┘└┐┌┘└┘        └────────────────────┘  │ │RAM          Instruction0│ Result0│ │ └─────────────────────┘           └┘└┐┌┘└┘
-┌─┐││┌─┐                                └─│             Instruction1│ Result1├─┘                                   ┌─┐││┌─┐
-└┐││││┌┘                                  │             Instruction2│ Result2│                                     └┐││││┌┘
-┌┘││││└┐                                  │                      ...│     ...│                                     ┌┘││││└┐
-└┐││││┌┘                                  └──────────────────────────────────┘                                     └┐││││┌┘
-┌┘└┘└┘└┐                                                                                                           ┌┘└┘└┘└┐
-│┌─┐┌─┐│  >x86 assembly overview (32 bit)                                                                          │┌─┐┌─┐│
-││┌┘└┐││    Instructions in the Intel syntax follow the format of:                                                 ││┌┘└┐││
-││└┐┌┘││        instruction dest_operand, source_operand ;eg MOV EAX, 0x05 moves the value five into EAX           ││└┐┌┘││
-││┌┘└┐││    If you see differently, you might be looking at AT&T syntax, which follow the format of:               ││┌┘└┐││
-└┘└┐┌┘└┘        instruction source_operand, dest_operand ;eg MOV 0x05, EAX moves the value five into EAX           └┘└┐┌┘└┘
-┌─┐││┌─┐    There are many, many x86 instructions but don't panic. Most of the time you will be seeing common      ┌─┐││┌─┐
-└┐││││┌┘    instructions. For learning x86 in general, there are a few different strategies. Reading assembly,     └┐││││┌┘
-┌┘││││└┐    writing assembly, writing higher level code and reading the compiled results, trying different         ┌┘││││└┐
-└┐││││┌┘    compilers, that sort of thing. Searches like "x86 mov" will be your friend as you try to learn how     └┐││││┌┘
-┌┘└┘└┘└┐    each instruction behaves. Generally we see our instructions falling into certain categories for        ┌┘└┘└┘└┐
-│┌─┐┌─┐│    movement of data, logic, and control flow.                                                             │┌─┐┌─┐│
-││┌┘└┐││    A few common instructions:                                                                             ││┌┘└┐││
-││└┐┌┘││        Movement of data                                                                                   ││└┐┌┘││
-││┌┘└┐││            MOV                                                                                            ││┌┘└┐││
-└┘└┐┌┘└┘            LEA                                                                                            └┘└┐┌┘└┘
-┌─┐││┌─┐        Math/logic                                                                                         ┌─┐││┌─┐
-└┐││││┌┘            ADD                                                                                            └┐││││┌┘
-┌┘││││└┐            SUB                                                                                            ┌┘││││└┐
-└┐││││┌┘            OR                                                                                             └┐││││┌┘
-┌┘└┘└┘└┐            XOR                                                                                            ┌┘└┘└┘└┐
-│┌─┐┌─┐│            AND                                                                                            │┌─┐┌─┐│
-││┌┘└┐││        Control flow                                                                                       ││┌┘└┐││
-││└┐┌┘││            CMP                                                                                            ││└┐┌┘││
-││┌┘└┐││            JMP                                                                                            ││┌┘└┐││
-└┘└┐┌┘└┘            PUSH                                                                                           └┘└┐┌┘└┘
-┌─┐││┌─┐            POP                                                                                            ┌─┐││┌─┐
-└┐││││┌┘            CALL                                                                                           └┐││││┌┘
-┌┘││││└┐            RET                                                                                            ┌┘││││└┐
-└┐││││┌┘                                                                                                           └┐││││┌┘
-┌┘└┘└┘└┐  >General Registers                                                                                       ┌┘└┘└┘└┐
-│┌─┐┌─┐│    Think of registers as variables within x86. This is not an exhaustive list of every register           │┌─┐┌─┐│
-││┌┘└┐││    which can be used, however the vast majority of the time you will be seeing these registers.           ││┌┘└┐││
-││└┐┌┘││                                                                                                           ││└┐┌┘││
-││┌┘└┐││        ┌───────────────┬───────┬───────┐                                                                  ││┌┘└┐││
-└┘└┐┌┘└┘        │        16 bits│ 8 bits│ 8 bits│                                                                  └┘└┐┌┘└┘
-┌─┐││┌─┐        ┌───────────────┬───────┬───────┐ ──┐                                                              ┌─┐││┌─┐
-└┐││││┌┘    EAX │            AX │   AH  │   AL  │   │                                                              └┐││││┌┘
-┌┘││││└┐        ├───────────────┼───────┼───────┤ D │                                                              ┌┘││││└┐
-└┐││││┌┘    EBX │            BX │   BH  │   BL  │ A │                                                              └┐││││┌┘
-┌┘└┘└┘└┐        ├───────────────┼───────┼───────┤ T │                                                              ┌┘└┘└┘└┐
-│┌─┐┌─┐│    ECX │            CX │   CH  │   CL  │ A │                                                              │┌─┐┌─┐│
-││┌┘└┐││        ├───────────────┼───────┼───────┤   │                                                              ││┌┘└┐││
-││└┐┌┘││    EDX │            DX │   DH  │   DL  │   │                                                              ││└┐┌┘││
-││┌┘└┐││        ├───────────────┴───────┴───────┤  ─┤                                                              ││┌┘└┐││
-└┘└┐┌┘└┘    ESI │                               │ I │                                                              └┘└┐┌┘└┘
-┌─┐││┌─┐        ├───────────────────────────────┤ N │                                                              ┌─┐││┌─┐
-└┐││││┌┘    EDI │                               │ D │                                                              └┐││││┌┘
-┌┘││││└┐        ├───────────────────────────────┤ / │                                                              ┌┘││││└┐
-└┐││││┌┘    ESP │                               │ P │                                                              └┐││││┌┘
-┌┘└┘└┘└┐        ├───────────────────────────────┤ N │                                                              ┌┘└┘└┘└┐
-│┌─┐┌─┐│    EBP │                               │ T │                                                              │┌─┐┌─┐│
-││┌┘└┐││        └───────────────────────────────┘ ──┘                                                              ││┌┘└┐││
-││└┐┌┘││        │                        32 Bits│                                                                  ││└┐┌┘││
-││┌┘└┐││        └───────────────────────────────┘                                                                  ││┌┘└┐││
-└┘└┐┌┘└┘                                                                                                           └┘└┐┌┘└┘
-┌─┐││┌─┐    Data Registers                                                                                         ┌─┐││┌─┐
-└┐││││┌┘        EAX: Accumulator, often for math and return values.                                                └┐││││┌┘
-┌┘││││└┐        EBX: Base, often holds function params and indexed addresses.                                      ┌┘││││└┐
-└┐││││┌┘        ECX: Count, for loop counts (programmers: this is "i") and function params.                        └┐││││┌┘
-┌┘└┘└┘└┐        EDX: Data, general use and function params.                                                        ┌┘└┘└┘└┐
-│┌─┐┌─┐│        Internally labeled boxes are subregisters which can be used.                                       │┌─┐┌─┐│
-││┌┘└┐││    Index Registers                                                                                        ││┌┘└┐││
-││└┐┌┘││        ESI: Source Index, often stores constants or used as a pointer.                                    ││└┐┌┘││
-││┌┘└┐││        EDI: Destination Index, often a destination for data or used as a pointer.                         ││┌┘└┐││
-└┘└┐┌┘└┘    Pointers                                                                                               └┘└┐┌┘└┘
-┌─┐││┌─┐        Points to a memory location, generally expressed in hex. Example: 0x40154b.                        ┌─┐││┌─┐
-└┐││││┌┘        ESP: Stack pointer, stores a pointer to top of stack.                                              └┐││││┌┘
-┌┘││││└┐        EBP: Base pointer, stores a pointer to base of current stack frame.                                ┌┘││││└┐
-└┐││││┌┘    Flags                                                                                                  └┐││││┌┘
-┌┘└┘└┘└┐        Certain instructions change flags, which are represented as simple 1 or 0 on a flag register.      ┌┘└┘└┘└┐
-│┌─┐┌─┐│        For example, if we perform an "add" between two numbers, we may have a few outcomes that we need   │┌─┐┌─┐│
-││┌┘└┐││        to be aware of. Let's say we compare two values to see if they are equal with CMP EDX, EAX. The    ││┌┘└┐││
-││└┐┌┘││        "zero flag" will either be set to 1 if they are equal, or 0 if they are not. An instruction        ││└┐┌┘││
-││┌┘└┐││        like JZ 0x40154b that jumps to memory location 0x40154b if the comparison equaled to zero would    ││┌┘└┐││
-└┘└┐┌┘└┘        check this flag. Think of these as boolean variables.                                              └┘└┐┌┘└┘
-┌─┐││┌─┐                                                                                                           ┌─┐││┌─┐
-└┐││││┌┘        ┌───────────────────────────────────────────────────────────────────────────┐                      └┐││││┌┘
-┌┘││││└┐        │ CMP    EAX, EDX    ; Changes zero flag (ZF) to 1 if EAX and EDX not equal │                      ┌┘││││└┐
-└┐││││┌┘        │ JNE    0x40154b    ; If ZF set to 1, jump to 0x40154b                     │                      └┐││││┌┘
-┌┘└┘└┘└┐        └───────────────────────────────────────────────────────────────────────────┘                      ┌┘└┘└┘└┐
-│┌─┐┌─┐│                                                                                                           │┌─┐┌─┐│
-││┌┘└┐││    There are a handful of flags to learn, but a few to get you started are:                               ││┌┘└┐││
-││└┐┌┘││        ZF, "zero flag," set if result is 0.                                                               ││└┐┌┘││
-││┌┘└┐││        SF, "sign flag," set if a result is negative.                                                      ││┌┘└┐││
-└┘└┐┌┘└┘        OF, "overflow flag," set if a result was larger than a register can hold. Let us say AL and DL     └┘└┐┌┘└┘
-┌─┐││┌─┐        are set to 0xFF. ADD AL, DL would return a 9 bit character and therefore overflow the 8 bit        ┌─┐││┌─┐
-└┐││││┌┘        register.                                                                                          └┐││││┌┘
-┌┘││││└┐    Addressing modes                                                                                       ┌┘││││└┐
-└┐││││┌┘        We have a few ways to address things.                                                              └┐││││┌┘
-┌┘└┘└┘└┐            Register addressing, aka using the direct register references. Example: EAX.                   ┌┘└┘└┘└┐
-│┌─┐┌─┐│            Immediate addressing, where we give an immediate value. Example: 0x10                          │┌─┐┌─┐│
-││┌┘└┐││            Memory addressing, where we use a memory address.                                              ││┌┘└┐││
-││└┐┌┘││                Direct memory addressing is when we reference the effective address of a memory location   ││└┐┌┘││
-││┌┘└┐││                directly, eg "JMP 0x401438" jumps directly to memory address 0x401438.                     ││┌┘└┐││
-└┘└┐┌┘└┘                Indirect memory addressing, eg "JMP [EAX]" jumps directly to the memory address stored     └┘└┐┌┘└┘
-┌─┐││┌─┐                in EAX.                                                                                    ┌─┐││┌─┐
-└┐││││┌┘        Addressing examples:                                                                               └┐││││┌┘
-┌┘││││└┐            Register to register (eg, MOV EDX, EAX copies data in EAX to EDX).                             ┌┘││││└┐
-└┐││││┌┘            Register to memory (eg, MOV [EDX], EAX copies data in EAX to memory address in EDX).           └┐││││┌┘
-┌┘└┘└┘└┐            Memory to register (eg, MOV EDX, [EAX] copies the data at memory address in EAX to EDX).       ┌┘└┘└┘└┐
-│┌─┐┌─┐│            Immediate to register (eg, MOV EDX, 0x05 copies hex value 5 to EDX).                           │┌─┐┌─┐│
-││┌┘└┐││            Immediate to memory (eg, MOV [EDX], 0x05 copies hex value 5 to memory address in EDX).         ││┌┘└┐││
-││└┐┌┘││        Note there is no "to immediate." This is because you can store things at a memory location, or     ││└┐┌┘││
-││┌┘└┐││        within a register, but you cannot store things at decimal value "10" for example. Spoken as a      ││┌┘└┐││
-└┘└┐┌┘└┘        analogy, you can store apples in a bucket, you can store apples at a street address for a bucket,  └┘└┐┌┘└┘
-┌─┐││┌─┐        but you can't store apples in an apple.                                                            ┌─┐││┌─┐
-└┐││││┌┘                                                                                                           └┐││││┌┘
-┌┘││││└┐    The Call Stack                                                                                         ┌┘││││└┐
-└┐││││┌┘        The stack is a last in, first out data structure. Think of this like a deck of cards. If we start  └┐││││┌┘
-┌┘└┘└┘└┐        stacking the cards, the card we draw will always be at the top of the stack. Whatever item we      ┌┘└┘└┘└┐
-│┌─┐┌─┐│        placed onto the stack last will be the next to be drawn.                                           │┌─┐┌─┐│
-││┌┘└┐││        Every function has a stack frame which allows each subroutine to behave in an independent          ││┌┘└┐││
-││└┐┌┘││        fashion. As a simple example, one common use of the stack would be function calls. We push our     ││└┐┌┘││
-││┌┘└┐││        parameters on the stack in reverse order; last in, first out, remember?                            ││┌┘└┐││
-└┘└┐┌┘└┘                                                                                                           └┘└┐┌┘└┘
-┌─┐││┌─┐        ┌─────────────────────────────────────────────────────────────────────────┐                        ┌─┐││┌─┐
-└┐││││┌┘        │ PUSH    0x22                    ; Arg3                                  │                        └┐││││┌┘
-┌┘││││└┐        │ PUSH    0x4058b4                ; Arg2                                  │                        ┌┘││││└┐
-└┐││││┌┘        │ PUSH    EAX                     ; Arg1                                  │                        └┐││││┌┘
-┌┘└┘└┘└┐        │ CALL    DWORD [OpenServiceW]    ; AKA OpenServiceW(EAX, 0x4058b4, 0x22) │                        ┌┘└┘└┘└┐
-│┌─┐┌─┐│        │ MOV     ESI, EAX                ; Stores result upon return             │                        │┌─┐┌─┐│
-││┌┘└┐││        └─────────────────────────────────────────────────────────────────────────┘                        ││┌┘└┐││
-││└┐┌┘││                                                                                                           ││└┐┌┘││
-││┌┘└┐││        Stack frames are generally going to have 4 different parts: Parameters, a return address (to       ││┌┘└┐││
-└┘└┐┌┘└┘        wherever your function was called from), your saved EBP, and your local variables (any variables   └┘└┐┌┘└┘
-┌─┐││┌─┐        you use within the function to manipulate data.)                                                   ┌─┐││┌─┐
-└┐││││┌┘        Our ESP and EBP pointers mentioned before are crucial to stack operations.                         └┐││││┌┘
-┌┘││││└┐            EBP always points to the base of the stack frame.                                              ┌┘││││└┐
-└┐││││┌┘            ESP always points to top of stack.                                                             └┐││││┌┘
-┌┘└┘└┘└┐                ESP increases as values are popped off of the stack.                                       ┌┘└┘└┘└┐
-│┌─┐┌─┐│                ESP decreases as values are added to the stack.                                            │┌─┐┌─┐│
-││┌┘└┐││    Simple Overview:                                                                                       ││┌┘└┐││
-││└┐┌┘││        1. When a function is called, the current EBP is pushed onto the stack.                            ││└┐┌┘││
-││┌┘└┐││        2. EBP is then assigned the value of ESP; EBP is now the base pointer to access vars and params.   ││┌┘└┐││
-└┘└┐┌┘└┘        3. As function runs, ESP will change as needed, EBP remains static.                                └┘└┐┌┘└┘
-┌─┐││┌─┐        4. As function terminates, ESP is set to EBP.                                                      ┌─┐││┌─┐
-└┐││││┌┘            Stack pointer is now set to top of stack to equal the base pointer. This frees memory          └┐││││┌┘
-┌┘││││└┐            allocated onthe stack for local vars.                                                          ┌┘││││└┐
-└┐││││┌┘        5. EBP is now popped from the stack (remember, first in last out,) and EBP can be used again as    └┐││││┌┘
-┌┘└┘└┘└┐        base pointer.                                                                                      ┌┘└┘└┘└┐
-│┌─┐┌─┐│        6. In simpler terms, stack frames contain the EBP value of the functions caller (step 1.)          │┌─┐┌─┐│
-││┌┘└┐││            Now we can use EBP register as this function's base pointer.                                   ││┌┘└┐││
-││└┐┌┘││                                                                                                           ││└┐┌┘││
-││┌┘└┐││        How it works graphically and more in depth:                                                        ││┌┘└┐││
-└┘└┐┌┘└┘        ┌───────────────┐                                                                                  └┘└┐┌┘└┘
-┌─┐││┌─┐        │  source_code.c│                                                                                  ┌─┐││┌─┐
-└┐││││┌┘        ┌───────────────────────────────┐                                                                  └┐││││┌┘
-┌┘││││└┐        │#include &lt;stdio.h>             │                                                                  ┌┘││││└┐
-└┐││││┌┘        │                               │                                                                  └┐││││┌┘
-┌┘└┘└┘└┐        │int subtract( int a, int b){   │                                                                  ┌┘└┘└┘└┐
-│┌─┐┌─┐│        │   int c;                      │                                                                  │┌─┐┌─┐│
-││┌┘└┐││        │   c = a - b;                  │                                                                  ││┌┘└┐││
-││└┐┌┘││        │   return c;                   │                                                                  ││└┐┌┘││
-││┌┘└┐││        │}                              │                                                                  ││┌┘└┐││
-└┘└┐┌┘└┘        │                               │                                                                  └┘└┐┌┘└┘
-┌─┐││┌─┐        │int main(){                    │                                                                  ┌─┐││┌─┐
-└┐││││┌┘        │   int a = 10;                 │                                                                  └┐││││┌┘
-┌┘││││└┐        │   int b = 5;                  │                                                                  ┌┘││││└┐
-└┐││││┌┘        │   subtract( a, b); //my start │                                                                  └┐││││┌┘
-┌┘└┘└┘└┐        │   return 0;                   │                                                                  ┌┘└┘└┘└┐
-│┌─┐┌─┐│        │}                              │                                                                  │┌─┐┌─┐│
-││┌┘└┐││        └───────────────────────────────┘                                                                  ││┌┘└┐││
-││└┐┌┘││        Let's use some simple code to show a function we might see in assembly. All we are going to show   ││└┐┌┘││
-││┌┘└┐││        is the subtract function being called and eventually returning a value.                            ││┌┘└┐││
-└┘└┐┌┘└┘                                                                                                           └┘└┐┌┘└┘
-┌─┐││┌─┐        ┌───────────────┐                                                               ┌──────────┐       ┌─┐││┌─┐
-└┐││││┌┘        │       assembly│                                            1 First Steps   mem│call stack│       └┐││││┌┘
-┌┘││││└┐        ┌─────────────────────────────────────────────────────────────────────────┐     ┌──────────┐       ┌┘││││└┐
-└┐││││┌┘        │ #function call                                                          │   32│      0x05│       └┐││││┌┘
-┌┘└┘└┘└┐        │ PUSH 0x05                       ; int A                                 │     ├──────────┤       ┌┘└┘└┘└┐
-│┌─┐┌─┐│        │ PUSH 0x10                       ; int B                                 │   28│      0x10│       │┌─┐┌─┐│
-││┌┘└┐││        │ CALL subtract                   ; Pushes ret adr, jmps to function adr  │     ├──────────┤       ││┌┘└┐││
-││└┐┌┘││        │ ...                                                                     │   24│   ret adr│       ││└┐┌┘││
-││┌┘└┐││        │                                                                         │     ├──────────┤       ││┌┘└┐││
-└┘└┐┌┘└┘        │ #just after function call, set our EBP                                  │   20│       EBP├─ ESP  └┘└┐┌┘└┘
-┌─┐││┌─┐        │ PUSH    EBP                     ; Set EBP                               │     ├──────────┤       ┌─┐││┌─┐
-└┐││││┌┘        │ MOV     EBP, ESP                ; Move ESP to EBP                       │   16│          │       └┐││││┌┘
-┌┘││││└┐        │ ...                                                                     │     ├──────────┤       ┌┘││││└┐
-└┐││││┌┘        To set the scene in our view of assembly, lets talk about the stack on the right. I like to        └┐││││┌┘
-┌┘└┘└┘└┐        envision my stacks as top down, from high memory to low memory. This is also nice because the      ┌┘└┘└┘└┐
-│┌─┐┌─┐│        order in which we read code, top to bottom, is also the order they are shown on the stack          │┌─┐┌─┐│
-││┌┘└┐││        when we visualize them this way. Therefore, if we popped the "top" value off the stack, it would   ││┌┘└┐││
-││└┐┌┘││        be our EBP. On the left side of the stack are some simple memory addresses to assist with our      ││└┐┌┘││
-││┌┘└┐││        stack pointer math. These increment by 4 as our 32 bit addresses and registers are composed of     ││┌┘└┐││
-└┘└┐┌┘└┘        4 bytes. In terms of the code itself, we see that our C function call does a couple things. The    └┘└┐┌┘└┘
-┌─┐││┌─┐        two parameters are pushed to the stack in reverse order, and then we CALL subtract, which is a     ┌─┐││┌─┐
-└┐││││┌┘        symbol representing the memory address where the instructions for the "subtract" function reside.  └┐││││┌┘
-┌┘││││└┐        If this binary was stripped of its symbols, it would look something like "CALL sub_401099," with   ┌┘││││└┐
-└┐││││┌┘        0x401099 being the memory address. Not only does CALL jump to this address however, it also        └┐││││┌┘
-┌┘└┘└┘└┐        pushes the return address (back to the function where this function was called) onto the stack.    ┌┘└┘└┘└┐
-│┌─┐┌─┐│        In simpler terms, call not only sends us to the function code, it also leaves a way back so that   │┌─┐┌─┐│
-││┌┘└┐││        our function can return integer variable "c". Additional hint for when you are hunting for         ││┌┘└┐││
-││└┐┌┘││        functions, you know a function has just been called when you see PUSH EBP followed by MOV EBP,     ││└┐┌┘││
-││┌┘└┐││        ESP.                                                                                               ││┌┘└┐││
-└┘└┐┌┘└┘                                                                                                           └┘└┐┌┘└┘
-┌─┐││┌─┐        ┌───────────────┐                                                               ┌──────────┐       ┌─┐││┌─┐
-└┐││││┌┘        │       assembly│                               2 Creating Local Variables   mem│call stack│       └┐││││┌┘
-┌┘││││└┐        ┌─────────────────────────────────────────────────────────────────────────┐     ┌──────────┐       ┌┘││││└┐
-└┐││││┌┘        │ #function call                                                          │   32│      0x05│       └┐││││┌┘
-┌┘└┘└┘└┐        │ PUSH 0x05                                                               │     ├──────────┤       ┌┘└┘└┘└┐
-│┌─┐┌─┐│        │ PUSH 0x10                                                               │   28│      0x10│       │┌─┐┌─┐│
-││┌┘└┐││        │ CALL subtract                                                           │     ├──────────┤       ││┌┘└┐││
-││└┐┌┘││        │ ...                                                                     │   24│   ret adr│       ││└┐┌┘││
-││┌┘└┐││        │                                                                         │     ├──────────┤       ││┌┘└┐││
-└┘└┐┌┘└┘        │ #just after function call, set our EBP                                  │   20│       EBP│       └┘└┐┌┘└┘
-┌─┐││┌─┐        │ PUSH    EBP                                                             │     ├──────────┤       ┌─┐││┌─┐
-└┐││││┌┘        │ MOV     EBP, ESP                                                        │   16│       EDX│       └┐││││┌┘
-┌┘││││└┐        │ PUSH    EDX                     ; Add EDX for int B                     │     ├──────────┤       ┌┘││││└┐
-└┐││││┌┘        │ PUSH    ECX                     ; Add ECX for int A                     │   12│       ECX│       └┐││││┌┘
-┌┘└┘└┘└┐        │ MOV     EDX, [EBP+0xC]          ; Load int B into EDX                   │     ├──────────┤       ┌┘└┘└┘└┐
-│┌─┐┌─┐│        │ MOV     ECX, [EBP+0x8]          ; Load int A into ECX                   │    8│         C├─ ESP  │┌─┐┌─┐│
-││┌┘└┐││        │ SUB     ESP, 0x4                ; Extend ESP 4 bytes for int C          │     ├──────────┤       ││┌┘└┐││
-││└┐┌┘││        │ ...                                                                     │    4│          │       ││└┐┌┘││
-││┌┘└┐││        We now have our local variables accounted for on the stack. Pushing values not only adds them to   ││┌┘└┐││
-└┘└┐┌┘└┘        the stack, it also advances ESP by 4 bytes each time. We have done this 2 times as well as moved   └┘└┐┌┘└┘
-┌─┐││┌─┐        ESP ourselves, so ESP is now at our memory location 8. Notice also how we are moving the values    ┌─┐││┌─┐
-└┐││││┌┘        from the parameters into our stack registers. EBP is our anchor and gives us a static reference    └┐││││┌┘
-┌┘││││└┐        point for calculating the memory required to access the parameters. EG, [EBP + 0xC] is the memory  ┌┘││││└┐
-└┐││││┌┘        address of our parameter int b. Since EBP will not move we know int b will be 12 bytes higher in   └┐││││┌┘
-┌┘└┘└┘└┐        memory. To show you another way we can make space, we also subtracted 4 bytes from ESP. Do note,   ┌┘└┘└┘└┐
-│┌─┐┌─┐│        this is only one way of expressing this in assembly. Since we typically are not in control of the  │┌─┐┌─┐│
-││┌┘└┐││        compiling process for whatever we are reversing, we may not know what compiler is being used, nor  ││┌┘└┐││
-││└┐┌┘││        how it behaves, and most compilers will probably behave differently from this intentionally        ││└┐┌┘││
-││┌┘└┐││        simplified example.                                                                                ││┌┘└┐││
-└┘└┐┌┘└┘                                                                                                           └┘└┐┌┘└┘
-┌─┐││┌─┐        ┌───────────────┐                                                               ┌──────────┐       ┌─┐││┌─┐
-└┐││││┌┘        │       assembly│                                3 Performing the Function   mem│call stack│       └┐││││┌┘
-┌┘││││└┐        ┌─────────────────────────────────────────────────────────────────────────┐     ┌──────────┐       ┌┘││││└┐
-└┐││││┌┘        │ #function call                                                          │   32│      0x05│       └┐││││┌┘
-┌┘└┘└┘└┐        │ PUSH 0x05                                                               │     ├──────────┤       ┌┘└┘└┘└┐
-│┌─┐┌─┐│        │ PUSH 0x10                                                               │   28│      0x10│       │┌─┐┌─┐│
-││┌┘└┐││        │ CALL subtract                                                           │     ├──────────┤       ││┌┘└┐││
-││└┐┌┘││        │ ...                                                                     │   24│   ret adr│       ││└┐┌┘││
-││┌┘└┐││        │                                                                         │     ├──────────┤       ││┌┘└┐││
-└┘└┐┌┘└┘        │ #just after function call, set our EBP                                  │   20│       EBP│       └┘└┐┌┘└┘
-┌─┐││┌─┐        │ PUSH    EBP                                                             │     ├──────────┤       ┌─┐││┌─┐
-└┐││││┌┘        │ MOV     EBP, ESP                                                        │   16│       EDX│       └┐││││┌┘
-┌┘││││└┐        │ PUSH    EDX                                                             │     ├──────────┤       ┌┘││││└┐
-└┐││││┌┘        │ PUSH    ECX                                                             │   12│       ECX│       └┐││││┌┘
-┌┘└┘└┘└┐        │ MOV     EDX, [EBP+0xC]                                                  │     ├──────────┤       ┌┘└┘└┘└┐
-│┌─┐┌─┐│        │ MOV     ECX, [EBP+0x8]                                                  │    8│         C├─ ESP  │┌─┐┌─┐│
-││┌┘└┐││        │ SUB     ESP, 0x4                                                        │     ├──────────┤       ││┌┘└┐││
-││└┐┌┘││        │ SUB     ECX, EDX                ; A - B, stores value in ECX            │    4│          │       ││└┐┌┘││
-││┌┘└┐││        │ MOV    [EBP-0xC], ECX           ; Move ECX value to int C location      │     ├──────────┤       ││┌┘└┐││
-└┘└┐┌┘└┘        │ MOV     EAX, [EBP-0xC]          ; Move int C to EAX for return          │    0│          │       └┘└┐┌┘└┘
-┌─┐││┌─┐        │ ...                                                                     │     └──────────┘       ┌─┐││┌─┐
-└┐││││┌┘        Here you can see our function being performed. Since we did not assign a register to C, merely a   └┐││││┌┘
-┌┘││││└┐        memory location, we must reference that location when we move our output. Following that, move     ┌┘││││└┐
-└┐││││┌┘        the contents to EAX for return to the main function which originally called subtract( a, b). Nice  └┐││││┌┘
-┌┘└┘└┘└┐        and simple, right?                                                                                 ┌┘└┘└┘└┐
-│┌─┐┌─┐│                                                                                                           │┌─┐┌─┐│
-││┌┘└┐││        ┌───────────────┐                                                               ┌──────────┐       ││┌┘└┐││
-││└┐┌┘││        │       assembly│                              4 Cleaning Up and Returning   mem│call stack│       ││└┐┌┘││
-││┌┘└┐││        ┌─────────────────────────────────────────────────────────────────────────┐     ┌──────────┐       ││┌┘└┐││
-└┘└┐┌┘└┘        │ #function call                                                          │   32│      0x05│       └┘└┐┌┘└┘
-┌─┐││┌─┐        │ PUSH 0x05                                                               │     ├──────────┤       ┌─┐││┌─┐
-└┐││││┌┘        │ PUSH 0x10                                                               │   28│      0x10│       └┐││││┌┘
-┌┘││││└┐        │ CALL subtract                                                           │     ├──────────┤       ┌┘││││└┐
-└┐││││┌┘        │ ...                                                                     │   24│   ret adr├─ ESP  └┐││││┌┘
-┌┘└┘└┘└┐        │                                                                         │     ├──────────┤       ┌┘└┘└┘└┐
-│┌─┐┌─┐│        │ #just after function call, set our EBP                                  │   20│          │       │┌─┐┌─┐│
-││┌┘└┐││        │ PUSH    EBP                                                             │     ├──────────┤       ││┌┘└┐││
-││└┐┌┘││        │ MOV     EBP, ESP                                                        │   16│          │       ││└┐┌┘││
-││┌┘└┐││        │ PUSH    EDX                                                             │     ├──────────┤       ││┌┘└┐││
-└┘└┐┌┘└┘        │ PUSH    ECX                                                             │   12│          │       └┘└┐┌┘└┘
-┌─┐││┌─┐        │ MOV     EDX, [EBP+0xC]                                                  │     ├──────────┤       ┌─┐││┌─┐
-└┐││││┌┘        │ MOV     ECX, [EBP+0x8]                                                  │    8│          │       └┐││││┌┘
-┌┘││││└┐        │ SUB     ESP, 0x4                                                        │     ├──────────┤       ┌┘││││└┐
-└┐││││┌┘        │ SUB     ECX, EDX                                                        │    4│          │       └┐││││┌┘
-┌┘└┘└┘└┐        │ MOV    [EBP-0xC], ECX                                                   │     ├──────────┤       ┌┘└┘└┘└┐
-│┌─┐┌─┐│        │ MOV     EAX, [EBP-0xC]                                                  │    0│          │       │┌─┐┌─┐│
-││┌┘└┐││        │ ADD     ESP, 0x4                ; Removing C                            │     └──────────┘       ││┌┘└┐││
-││└┐┌┘││        │ POP     ECX                     ; Removing A                            │                        ││└┐┌┘││
-││┌┘└┐││        │ POP     EDX                     ; Removing B                            │                        ││┌┘└┐││
-└┘└┐┌┘└┘        │ LEAVE                           ; Pops EBP                              │                        └┘└┐┌┘└┘
-┌─┐││┌─┐        │ RET                             ; Ret to adr ESP is pointing to (main)  │                        ┌─┐││┌─┐
-└┐││││┌┘        └─────────────────────────────────────────────────────────────────────────┘                        └┐││││┌┘
-┌┘││││└┐        So now we have our return value in EAX and wish to return to the function which called this one.   ┌┘││││└┐
-└┐││││┌┘        That address is still in our stack (ret adr). To remove our memory allocated for int C on the      └┐││││┌┘
-┌┘└┘└┘└┐        stack, we can simply add a 4 bytes to the value of ESP, moving it up a slot. We can then pop ECX   ┌┘└┘└┘└┐
-│┌─┐┌─┐│        and EDX, moving us an additional 8 bytes up (back on EBP). LEAVE pops EBP for us which drops ESP   │┌─┐┌─┐│
-││┌┘└┐││        onto the return address, and return will jump us to the return address which ESP is currently      ││┌┘└┐││
-││└┐┌┘││        pointing to. Do note, rather than pop the values and decrement manually we could have used LEAVE   ││└┐┌┘││
-││┌┘└┐││        which firstly shifts ESP to EBP before popping EBP and decrementing ESP by 4 bytes. Just like in   ││┌┘└┐││
-└┘└┐┌┘└┘        higher level programming, there are many roads to the same destination. Upon our return, to        └┘└┐┌┘└┘
-┌─┐││┌─┐        access the return value, we would simply reference EAX.                                            ┌─┐││┌─┐
-└┐││││┌┘        ...to be continued...                                                                              └┐││││┌┘
-        </pre>
-        </center>
-    </body>
-</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>x86re</title>
+        <meta charset="utf-8">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5V8ZMZCPP4"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-5V8ZMZCPP4');
+        </script>
+    </head>
+    <body style="background-color: black;">
+        <center>
+        <pre style="color: white; margin: 60px auto; width: auto!important; font-size: 14px; font-family: 'Courier New', monospace;">
+┌──────┐┌─────────────────────────────────────────────────────────────────────────────────────────────────────────┐┌──────┐
+│┌─┐┌─┐││ idk_lol.exe                                                                                       _ □ x ││┌─┐┌─┐│
+││┌┘└┐│││┌───────── ▄███████ ── ▄███████  ▄█ ─ █▄ ─── ▄███████ ── ▄███████ ── ▄███████ ── ▄███████ ──────────────┐│││┌┘└┐││
+││└┐┌┘││││         ███   ███   ███   ███ ███   ███   ███   ███   ███   ███   ███   ███   ███   ███               ││││└┐┌┘││
+││┌┘└┐││││         ███   ███   ███   █▀  ███   ███   ███   █▀    ███   ███   ███   █▀    ███   █▀                ││││┌┘└┐││
+└┘└┐┌┘└┘││        ▄███▄▄▄██▀  ▄███▄▄     ███   ███  ▄███▄▄      ▄███▄▄▄██▀   ███        ▄███▄▄                   ││└┘└┐┌┘└┘
+┌─┐││┌─┐││       ▀▀███▀▀▀▀   ▀▀███▀▀     ███   ███ ▀▀███▀▀     ▀▀███▀▀▀▀   ▀██████████ ▀▀███▀▀                   ││┌─┐││┌─┐
+└┐││││┌┘││       ▀██████████   ███   █▄  ███   ███   ███   █▄  ▀██████████         ███   ███   █▄                ││└┐││││┌┘
+┌┘││││└┐││         ███   ███   ███   ███ ███   ███   ███   ███   ███   ███    ▄█   ███   ███   ███               ││┌┘││││└┐
+└┐││││┌┘││         ███   ███   █████████  ▀█████▀    █████████   ███   ███  ▄███████▀    █████████               ││└┐││││┌┘
+┌┘└┘└┘└┐││         ███   ███                                     ███   ███                                        │┌┘└┘└┘└┐
+│┌─┐┌─┐││  ▄███████ ███▄▄▄      ▄█████▄   ▄█  ███▄▄▄      ▄███████    ▄███████    ▄███████  ▄█  ███▄▄▄      ▄█████▄ ──┐┌─┐│
+││┌┘└┐│││ ███   ███ ███▀▀██▄   ███   ███ ███  ███▀▀██▄   ███   ███   ███   ███   ███   ███ ███  ███▀▀██▄   ███   ███ ┌┘└┐││
+││└┐┌┘│││ ███   █▀  ███  ███   ███   █▀  ███▌ ███  ███   ███   █▀    ███   █▀    ███   ███ ███▌ ███  ███   ███   █▀ │└┐┌┘││
+││┌┘└┐││ ▄███▄▄     ███  ███  ▄███       ███▌ ███  ███  ▄███▄▄      ▄███▄▄      ▄███▄▄▄██▀ ███▌ ███  ███  ▄███     ││┌┘└┐││
+└┘└┐┌┘└┘▀▀███▀▀     ███  ███ ▀▀███ ███▄  ███▌ ███  ███ ▀▀███▀▀     ▀▀███▀▀     ▀▀███▀▀▀▀   ███▌ ███  ███ ▀▀███ ███▄└┘└┐┌┘└┘
+┌─┐││┌─┐│ ███   █▄  ███  ███   ███   ███ ███  ███  ███   ███   █▄    ███   █▄  ▀██████████ ███  ███  ███   ███   ███ ┐││┌─┐
+└┐││││┌┘│ ███   ███ ███  ███   ███   ███ ███  ███  ███   ███   ███   ███   ███   ███   ███ ███  ███  ███   ███   ███ ││││┌┘
+┌┘││││└┐│ █████████  ▀█  █▀    ███████▀  █▀    ▀█  █▀    █████████   █████████   ███   ███ █▀    ▀█  █▀    ███████▀ ┘││││└┐
+└┐││││┌┘│                                                                        ███   ███                        │└┐││││┌┘
+┌┘└┘└┘└┐│  ▄███████  ▄█████▄     ▄███████     ███▄▄▄    ▄█████▄   ▄█████▄  ▀████████▄     ▄███████               ││┌┘└┘└┘└┐
+│┌─┐┌─┐││ ███   ███ ███   ███   ███   ███     ███▀▀██▄ ███   ███ ███   ███   ███   ███   ███   ███               │││┌─┐┌─┐│
+││┌┘└┐│││ ███   █▀  ███   ███   ███   ███     ███  ███ ███   ███ ███   ███   ███   ███   ███   █▀                ││││┌┘└┐││
+││└┐┌┘││ ▄███▄▄     ███   ███  ▄███▄▄▄██▀     ███  ███ ███   ███ ███   ███  ▄███▄▄██▀    ███                     ││││└┐┌┘││
+││┌┘└┐││▀▀███▀▀     ███   ███ ▀▀███▀▀▀▀       ███  ███ ███   ███ ███   ███ ▀▀███▀▀██▄  ▀██████████               ││││┌┘└┐││
+└┘└┐┌┘└┘│ ███       ███   ███ ▀██████████     ███  ███ ███   ███ ███   ███   ███   ██▄         ███               ││└┘└┐┌┘└┘
+┌─┐││┌─┐│ ███       ███   ███   ███   ███     ███  ███ ███   ███ ███   ███   ███   ███    ▄█   ███  @0x6D6172636F││┌─┐││┌─┐
+└┐││││┌┘│ ███ ────── ▀█████▀ ── ███ ─ ███ ───  ▀█  █▀ ─ ▀█████▀ ─ ▀█████▀  ▄████████▀ ─ ▄███████▀ ───────────────┘│└┐││││┌┘
+┌┘││││└┐└ ███ ───────────────── ███ ─ ███ ────────────────────────────────────────────────────────────────────────┘┌┘││││└┐
+└┐││││┌┘                                                                                                           └┐││││┌┘
+┌┘└┘└┘└┐ >>Introduction<<                                                                                          ┌┘└┘└┘└┐
+│┌─┐┌─┐│    At a high level, reverse engineering is learning how something works without knowledge of it. With     │┌─┐┌─┐│
+││┌┘└┐││    software, our goal is to understand the source code of a binary which we do not have the source code   ││┌┘└┐││
+││└┐┌┘││    to. As a question: "what does this do, and how does it do it?" Our desired outcomes come in varying    ││└┐┌┘││
+││┌┘└┐││    degrees, from essentially re-creating software to just understanding what certain functions are        ││┌┘└┐││
+└┘└┐┌┘└┘    performing. A large amount of analysis can be done by simply running and observing software, however   └┘└┐┌┘└┘
+┌─┐││┌─┐    this document is primarily about static analysis and examining the executable machine code. We gain    ┌─┐││┌─┐
+└┐││││┌┘    a detailed view of the binary because, simply put, we are looking at the exact instructions which are  └┐││││┌┘
+┌┘││││└┐    running on a CPU.                                                                                      ┌┘││││└┐
+└┐││││┌┘  >Why RE/Practical reasons                                                                                └┐││││┌┘
+┌┘└┘└┘└┐    You might be thinking that this sounds like a tedious and daunting exercise. While not incorrect,      ┌┘└┘└┘└┐
+│┌─┐┌─┐│    there are a few practical reasons to do so anyways. You may have a malware sample found on a network   │┌─┐┌─┐│
+││┌┘└┐││    which is sending encrypted outbound internet traffic and need to figure out what the traffic was. In   ││┌┘└┐││
+││└┐┌┘││    this situation, dynamic analysis may not give you any insight into the payload data. Alternatively,    ││└┐┌┘││
+││┌┘└┐││    de-compiling may not truly recreate the source code. While useful, de-compilers contain an element of  ││┌┘└┐││
+└┘└┐┌┘└┘    guesswork. Therefore, you may need to reverse engineer the binary. Additionally, you will see reverse  └┘└┐┌┘└┘
+┌─┐││┌─┐    engineering used in context with game hacking, DRM removal, CTFs, etc.                                 ┌─┐││┌─┐
+└┐││││┌┘  >What is the goal of this document                                                                       └┐││││┌┘
+┌┘││││└┐    In the short term, my goal is to introduce you to reverse engineering both conceptually and            ┌┘││││└┐
+└┐││││┌┘    practically. Due to the abstract and esoteric nature of RE as a field, most people are entirely        └┐││││┌┘
+┌┘└┘└┘└┐    unaware of its existence, much less exposed to an entry point. Personally, the most difficult period   ┌┘└┘└┘└┐
+│┌─┐┌─┐│    I had was finding training, gaining a methodology, and learning where to start. While there are        │┌─┐┌─┐│
+││┌┘└┐││    fantastic resources for doing so, finding them can be tough. Reversing is an extremely deep field due  ││┌┘└┐││
+││└┐┌┘││    to its ability to be applied to just about anything electronic, so consider this effort to be a diving ││└┐┌┘││
+││┌┘└┐││    board. Furthermore, it is a fantastic introduction to low level computing in general, where you can    ││┌┘└┐││
+└┘└┐┌┘└┘    leverage your knowledge for things like binary golf, exploit development, modern assembly development, └┘└┐┌┘└┘
+┌─┐││┌─┐    virus development, and more.                                                                           ┌─┐││┌─┐
+└┐││││┌┘    In the long term, my goal is to introduce a mindset. Most of my RE experience at the time of writing   └┐││││┌┘
+┌┘││││└┐    has been in CTFs. Often you are presented with bizarre problems you are unprepared for, with little    ┌┘││││└┐
+└┐││││┌┘    insight as to proceed. In order to solve these sorts of challenges, the following methodology          └┐││││┌┘
+┌┘└┘└┘└┐    becomes critical:                                                                                      ┌┘└┘└┘└┐
+│┌─┐┌─┐│        Failing attempts must be thought of iterative learning                                             │┌─┐┌─┐│
+││┌┘└┐││        "I don't understand X" must become "How do I learn more about X"                                   ││┌┘└┐││
+││└┐┌┘││        "Y is too complicated" must become "How do I break Y into smaller steps"                           ││└┐┌┘││
+││┌┘└┐││                                                                                                           ││┌┘└┐││
+└┘└┐┌┘└┘ >>Technical Prerequisites<<                                                                               └┘└┐┌┘└┘
+┌─┐││┌─┐  >Executables (aka Binaries)                                                                              ┌─┐││┌─┐
+└┐││││┌┘    At a high level, here is what is going on:                                                             └┐││││┌┘
+┌┘││││└┐        We have instructions for humans but need to make machine code that a computer can execute.         ┌┘││││└┐
+└┐││││┌┘        With a compiled language, higher level code such C is parsed and compiled into machine code.       └┐││││┌┘
+┌┘└┘└┘└┐  >Compiling can be thought of in a few steps:                                                             ┌┘└┘└┘└┐
+│┌─┐┌─┐│    A compiler takes the source code and converts it into machine language, such as an object file of      │┌─┐┌─┐│
+││┌┘└┐││    your source code.                                                                                      ││┌┘└┐││
+││└┐┌┘││    A linker combines this object file with other pre-compiled object files so that your symbols           ││└┐┌┘││
+││┌┘└┐││    (for example: identifiers for functions in libraries, global variables, etc) can be defined. When      ││┌┘└┐││
+└┘└┐┌┘└┘    writing code you will often use functions you did not actually define within your source code.         └┘└┐┌┘└┘
+┌─┐││┌─┐    The linker takes your undefined symbols and adds the correct addresses to these instructions;          ┌─┐││┌─┐
+└┐││││┌┘    outputting your executable file. As an example, imagine that you have some source code calling an      └┐││││┌┘
+┌┘││││└┐    exported DLL function. When that source code is compiled, the function call generates an external      ┌┘││││└┐
+└┐││││┌┘    function reference (since the DLL is not a part of your source code.) The linker then adds the         └┐││││┌┘
+┌┘└┘└┘└┐    information necessary for the reference to actually find this DLL code when the process is started.    ┌┘└┘└┘└┐
+│┌─┐┌─┐│                                                                                                           │┌─┐┌─┐│
+││┌┘└┐││        ┌───────────────┐                                                                                  ││┌┘└┐││
+││└┐┌┘││        │  source_code.c│                                                                                  ││└┐┌┘││
+││┌┘└┐││        ┌───────────────────────────────┐                                                                  ││┌┘└┐││
+└┘└┐┌┘└┘        │#include &lt;stdio.h>             │                                                                  └┘└┐┌┘└┘
+┌─┐││┌─┐        │int main()                     │                                                                  ┌─┐││┌─┐
+└┐││││┌┘        │{                              │                                                                  └┐││││┌┘
+┌┘││││└┐        │   printf( "hello world\n" );  │                                                                  ┌┘││││└┐
+└┐││││┌┘        │   return 0;                   │                                                                  └┐││││┌┘
+┌┘└┘└┘└┐        │}                              │                                                                  ┌┘└┘└┘└┐
+│┌─┐┌─┐│        └───────────────────────────────┘                                                                  │┌─┐┌─┐│
+││┌┘└┐││                 │                                                                                         ││┌┘└┐││
+││└┐┌┘││        ┌────────┴──────┐                                                                                  ││└┐┌┘││
+││┌┘└┐││        │       Compiler│                                                                                  ││┌┘└┐││
+└┘└┐┌┘└┘        └───────────────┘                                                                                  └┘└┐┌┘└┘
+┌─┐││┌─┐                 │                                                                                         ┌─┐││┌─┐
+└┐││││┌┘        ┌────────┴──────┐                                                                                  └┐││││┌┘
+┌┘││││└┐        │compiled_code.o│                                                                                  ┌┘││││└┐
+└┐││││┌┘        ┌───────────────────────────────┐                                                                  └┐││││┌┘
+┌┘└┘└┘└┐        │.file source_code.c            │                                                                  ┌┘└┘└┘└┐
+│┌─┐┌─┐│        │.LC0:                          │                                                                  │┌─┐┌─┐│
+││┌┘└┐││        │   .string "hello world"       │                                                                  ││┌┘└┐││
+││└┐┌┘││        │main:                          │                                                                  ││└┐┌┘││
+││┌┘└┐││        │   LEA ECX, [ESP+4]            │                                                                  ││┌┘└┐││
+└┘└┐┌┘└┘        │   AND ESP, -16                │                                                                  └┘└┐┌┘└┘
+┌─┐││┌─┐        │   PUSH DWORD PTR [ECX-4]      │                                                                  ┌─┐││┌─┐
+└┐││││┌┘        │   PUSH EBP                    │                                                                  └┐││││┌┘
+┌┘││││└┐        │   MOV EBP, ESP                │                                                                  ┌┘││││└┐
+└┐││││┌┘        │   PUSH ECX                    │                                                                  └┐││││┌┘
+┌┘└┘└┘└┐        │   SUB ESP, 4                  │                                                                  ┌┘└┘└┘└┐
+│┌─┐┌─┐│        │   SUB ESP, 12                 │                                                                  │┌─┐┌─┐│
+││┌┘└┐││        │   PUSH OFFSET FLAT:.LC0       │                                                                  ││┌┘└┐││
+││└┐┌┘││        │   CALL PUTS                   │                                                                  ││└┐┌┘││
+││┌┘└┐││        │   ADD ESP, 16                 │                                                                  ││┌┘└┐││
+└┘└┐┌┘└┘        │   MOV EAX, LC0                │                                                                  └┘└┐┌┘└┘
+┌─┐││┌─┐        │   MOV ECX, DWORD PTR [EBP-4]  │                                                                  ┌─┐││┌─┐
+└┐││││┌┘        │   LEAVE                       │                                                                  └┐││││┌┘
+┌┘││││└┐        │   LEA ESP, [ECX-4]            │                                                                  ┌┘││││└┐
+└┐││││┌┘        │   RET                         │                                                                  └┐││││┌┘
+┌┘└┘└┘└┐        └───────────────────────────────┘                                                                  ┌┘└┘└┘└┐
+│┌─┐┌─┐│                 │                                                                                         │┌─┐┌─┐│
+││┌┘└┐││        ┌────────┴──────┐   ┌───────────────┐                                                              ││┌┘└┐││
+││└┐┌┘││        │         Linker├───│  External DLLs│                                                              ││└┐┌┘││
+││┌┘└┐││        └───────────────┘   └───────────────┘                                                              ││┌┘└┐││
+└┘└┐┌┘└┘                 │                                                                                         └┘└┐┌┘└┘
+┌─┐││┌─┐        ┌────────┴──────┐                                                                                  ┌─┐││┌─┐
+└┐││││┌┘        │ executable.exe│                                                                                  └┐││││┌┘
+┌┘││││└┐        ┌────────────────────────────────┐                                                                 ┌┘││││└┐
+└┐││││┌┘        │4d 5a 90 00 03 00 00 00-04 00 00│                                                                 └┐││││┌┘
+┌┘└┘└┘└┐        │00 ff ff 00 00 b8 00 00 00 00 00│                                                                 ┌┘└┘└┘└┐
+│┌─┐┌─┐│        │00 00 00-40 00 00 00 00 00 00 00│                                                                 │┌─┐┌─┐│
+││┌┘└┐││        │...                             │                                                                 ││┌┘└┐││
+││└┐┌┘││        └────────────────────────────────┘                                                                 ││└┐┌┘││
+││┌┘└┐││                                                                                                           ││┌┘└┐││
+└┘└┐┌┘└┘    The compiled executable looks like gibberish to us compared to the previous source code. However,      └┘└┐┌┘└┘
+┌─┐││┌─┐    this won't stop us from our goals.                                                                     ┌─┐││┌─┐
+└┐││││┌┘    While we may describe the executable as "binary," typically we represent it in a shorter format,       └┐││││┌┘
+┌┘││││└┐    hex. An example of hex: B8 05 00 00 00.                                                                ┌┘││││└┐
+└┐││││┌┘    Assembly is just translating this directly to a more human readable format. "B8 05 00 00 00" directly  └┐││││┌┘
+┌┘└┘└┘└┐    corresponds to "MOV EAX, 05" (move the value 05 into register EAX). B8 directly corresponds to the     ┌┘└┘└┘└┐
+│┌─┐┌─┐│    physical circuits for this instruction on the processor. This performs a MOV operation that loads a    │┌─┐┌─┐│
+││┌┘└┐││    value into the physical 32-bit memory register on the processor that we are referring to as EAX. The   ││┌┘└┐││
+││└┐┌┘││    latter half of the hex instruction for B8 is "05 00 00 00". There are 32 bits allocated for this       ││└┐┌┘││
+││┌┘└┐││    value, but we only need a little of that to represent our value, hence the zeroes.                     ││┌┘└┐││
+└┘└┐┌┘└┘    Also note, the 05 is stored on the far left vs the far right. This is due to something referred to     └┘└┐┌┘└┘
+┌─┐││┌─┐    as "endianness," which you will want to learn more about later, but don't worry about that right now.  ┌─┐││┌─┐
+└┐││││┌┘    Just know that if the byte on the far left would represent the least significant bit it would be       └┐││││┌┘
+┌┘││││└┐    referred to as little-endian, and if the byte on the far left represented the most significant bit,    ┌┘││││└┐
+└┐││││┌┘    it would be referred to as big-endian. Were we to represent this as a big-endian value, the            └┐││││┌┘
+┌┘└┘└┘└┐    instruction in hex would be "B8 00 00 00 05." PE (.exe) files will always be little-endian, but know   ┌┘└┘└┘└┐
+│┌─┐┌─┐│    that other formats such as ELF may not be.                                                             │┌─┐┌─┐│
+││┌┘└┐││                                                                                                           ││┌┘└┐││
+││└┐┌┘││  >What happens when a program is run?                                                                     ││└┐┌┘││
+││┌┘└┐││    1. The program is assigned RAM, and the code/data it manipulates are loaded into RAM from storage.     ││┌┘└┐││
+└┘└┐┌┘└┘    2. An instruction is read from RAM by the CPU control unit.                                            └┘└┐┌┘└┘
+┌─┐││┌─┐    3. The instruction is executed by the CPU ALU using inputs from user or registers.                     ┌─┐││┌─┐
+└┐││││┌┘    4. The output is stored in registers or sent to a device.                                              └┐││││┌┘
+┌┘││││└┐    Repeat these steps until the program is done.                                                          ┌┘││││└┐
+└┐││││┌┘                                                                                                           └┐││││┌┘
+┌┘└┘└┘└┐                                  ┌─────────────┐   ┌────────────────┐                                     ┌┘└┘└┘└┐
+│┌─┐┌─┐│                                ┌─┤ Control Unit│───┤Arith Logic Unit│─┐                                   │┌─┐┌─┐│
+││┌┘└┐││                                │ └─────────────┘   └────────────────┘ │                                   ││┌┘└┐││
+││└┐┌┘││        ┌────────────────────┐  │                                      │ ┌─────────────────────┐           ││└┐┌┘││
+││┌┘└┐││        │Inst fetch from RAM │  │ ┌──────────────────────────────────┐ │ │Result stored to RAM │           ││┌┘└┐││
+└┘└┐┌┘└┘        └────────────────────┘  │ │RAM          Instruction0│ Result0│ │ └─────────────────────┘           └┘└┐┌┘└┘
+┌─┐││┌─┐                                └─│             Instruction1│ Result1├─┘                                   ┌─┐││┌─┐
+└┐││││┌┘                                  │             Instruction2│ Result2│                                     └┐││││┌┘
+┌┘││││└┐                                  │                      ...│     ...│                                     ┌┘││││└┐
+└┐││││┌┘                                  └──────────────────────────────────┘                                     └┐││││┌┘
+┌┘└┘└┘└┐                                                                                                           ┌┘└┘└┘└┐
+│┌─┐┌─┐│  >x86 assembly overview (32 bit)                                                                          │┌─┐┌─┐│
+││┌┘└┐││    Instructions in the Intel syntax follow the format of:                                                 ││┌┘└┐││
+││└┐┌┘││        instruction dest_operand, source_operand ;eg MOV EAX, 0x05 moves the value five into EAX           ││└┐┌┘││
+││┌┘└┐││    If you see differently, you might be looking at AT&T syntax, which follow the format of:               ││┌┘└┐││
+└┘└┐┌┘└┘        instruction source_operand, dest_operand ;eg MOV 0x05, EAX moves the value five into EAX           └┘└┐┌┘└┘
+┌─┐││┌─┐    There are many, many x86 instructions but don't panic. Most of the time you will be seeing common      ┌─┐││┌─┐
+└┐││││┌┘    instructions. For learning x86 in general, there are a few different strategies. Reading assembly,     └┐││││┌┘
+┌┘││││└┐    writing assembly, writing higher level code and reading the compiled results, trying different         ┌┘││││└┐
+└┐││││┌┘    compilers, that sort of thing. Searches like "x86 mov" will be your friend as you try to learn how     └┐││││┌┘
+┌┘└┘└┘└┐    each instruction behaves. Generally we see our instructions falling into certain categories for        ┌┘└┘└┘└┐
+│┌─┐┌─┐│    movement of data, logic, and control flow.                                                             │┌─┐┌─┐│
+││┌┘└┐││    A few common instructions:                                                                             ││┌┘└┐││
+││└┐┌┘││        Movement of data                                                                                   ││└┐┌┘││
+││┌┘└┐││            MOV                                                                                            ││┌┘└┐││
+└┘└┐┌┘└┘            LEA                                                                                            └┘└┐┌┘└┘
+┌─┐││┌─┐        Math/logic                                                                                         ┌─┐││┌─┐
+└┐││││┌┘            ADD                                                                                            └┐││││┌┘
+┌┘││││└┐            SUB                                                                                            ┌┘││││└┐
+└┐││││┌┘            OR                                                                                             └┐││││┌┘
+┌┘└┘└┘└┐            XOR                                                                                            ┌┘└┘└┘└┐
+│┌─┐┌─┐│            AND                                                                                            │┌─┐┌─┐│
+││┌┘└┐││        Control flow                                                                                       ││┌┘└┐││
+││└┐┌┘││            CMP                                                                                            ││└┐┌┘││
+││┌┘└┐││            JMP                                                                                            ││┌┘└┐││
+└┘└┐┌┘└┘            PUSH                                                                                           └┘└┐┌┘└┘
+┌─┐││┌─┐            POP                                                                                            ┌─┐││┌─┐
+└┐││││┌┘            CALL                                                                                           └┐││││┌┘
+┌┘││││└┐            RET                                                                                            ┌┘││││└┐
+└┐││││┌┘                                                                                                           └┐││││┌┘
+┌┘└┘└┘└┐  >General Registers                                                                                       ┌┘└┘└┘└┐
+│┌─┐┌─┐│    Think of registers as variables within x86. This is not an exhaustive list of every register           │┌─┐┌─┐│
+││┌┘└┐││    which can be used, however the vast majority of the time you will be seeing these registers.           ││┌┘└┐││
+││└┐┌┘││                                                                                                           ││└┐┌┘││
+││┌┘└┐││        ┌───────────────┬───────┬───────┐                                                                  ││┌┘└┐││
+└┘└┐┌┘└┘        │        16 bits│ 8 bits│ 8 bits│                                                                  └┘└┐┌┘└┘
+┌─┐││┌─┐        ┌───────────────┬───────┬───────┐ ──┐                                                              ┌─┐││┌─┐
+└┐││││┌┘    EAX │            AX │   AH  │   AL  │   │                                                              └┐││││┌┘
+┌┘││││└┐        ├───────────────┼───────┼───────┤ D │                                                              ┌┘││││└┐
+└┐││││┌┘    EBX │            BX │   BH  │   BL  │ A │                                                              └┐││││┌┘
+┌┘└┘└┘└┐        ├───────────────┼───────┼───────┤ T │                                                              ┌┘└┘└┘└┐
+│┌─┐┌─┐│    ECX │            CX │   CH  │   CL  │ A │                                                              │┌─┐┌─┐│
+││┌┘└┐││        ├───────────────┼───────┼───────┤   │                                                              ││┌┘└┐││
+││└┐┌┘││    EDX │            DX │   DH  │   DL  │   │                                                              ││└┐┌┘││
+││┌┘└┐││        ├───────────────┴───────┴───────┤  ─┤                                                              ││┌┘└┐││
+└┘└┐┌┘└┘    ESI │                               │ I │                                                              └┘└┐┌┘└┘
+┌─┐││┌─┐        ├───────────────────────────────┤ N │                                                              ┌─┐││┌─┐
+└┐││││┌┘    EDI │                               │ D │                                                              └┐││││┌┘
+┌┘││││└┐        ├───────────────────────────────┤ / │                                                              ┌┘││││└┐
+└┐││││┌┘    ESP │                               │ P │                                                              └┐││││┌┘
+┌┘└┘└┘└┐        ├───────────────────────────────┤ N │                                                              ┌┘└┘└┘└┐
+│┌─┐┌─┐│    EBP │                               │ T │                                                              │┌─┐┌─┐│
+││┌┘└┐││        └───────────────────────────────┘ ──┘                                                              ││┌┘└┐││
+││└┐┌┘││        │                        32 Bits│                                                                  ││└┐┌┘││
+││┌┘└┐││        └───────────────────────────────┘                                                                  ││┌┘└┐││
+└┘└┐┌┘└┘                                                                                                           └┘└┐┌┘└┘
+┌─┐││┌─┐    Data Registers                                                                                         ┌─┐││┌─┐
+└┐││││┌┘        EAX: Accumulator, often for math and return values.                                                └┐││││┌┘
+┌┘││││└┐        EBX: Base, often holds function params and indexed addresses.                                      ┌┘││││└┐
+└┐││││┌┘        ECX: Count, for loop counts (programmers: this is "i") and function params.                        └┐││││┌┘
+┌┘└┘└┘└┐        EDX: Data, general use and function params.                                                        ┌┘└┘└┘└┐
+│┌─┐┌─┐│        Internally labeled boxes are subregisters which can be used.                                       │┌─┐┌─┐│
+││┌┘└┐││    Index Registers                                                                                        ││┌┘└┐││
+││└┐┌┘││        ESI: Source Index, often stores constants or used as a pointer.                                    ││└┐┌┘││
+││┌┘└┐││        EDI: Destination Index, often a destination for data or used as a pointer.                         ││┌┘└┐││
+└┘└┐┌┘└┘    Pointers                                                                                               └┘└┐┌┘└┘
+┌─┐││┌─┐        Points to a memory location, generally expressed in hex. Example: 0x40154b.                        ┌─┐││┌─┐
+└┐││││┌┘        ESP: Stack pointer, stores a pointer to top of stack.                                              └┐││││┌┘
+┌┘││││└┐        EBP: Base pointer, stores a pointer to base of current stack frame.                                ┌┘││││└┐
+└┐││││┌┘    Flags                                                                                                  └┐││││┌┘
+┌┘└┘└┘└┐        Certain instructions change flags, which are represented as simple 1 or 0 on a flag register.      ┌┘└┘└┘└┐
+│┌─┐┌─┐│        For example, if we perform an "add" between two numbers, we may have a few outcomes that we need   │┌─┐┌─┐│
+││┌┘└┐││        to be aware of. Let's say we compare two values to see if they are equal with CMP EDX, EAX. The    ││┌┘└┐││
+││└┐┌┘││        "zero flag" will either be set to 1 if they are equal, or 0 if they are not. An instruction        ││└┐┌┘││
+││┌┘└┐││        like JZ 0x40154b that jumps to memory location 0x40154b if the comparison equaled to zero would    ││┌┘└┐││
+└┘└┐┌┘└┘        check this flag. Think of these as boolean variables.                                              └┘└┐┌┘└┘
+┌─┐││┌─┐                                                                                                           ┌─┐││┌─┐
+└┐││││┌┘        ┌───────────────────────────────────────────────────────────────────────────┐                      └┐││││┌┘
+┌┘││││└┐        │ CMP    EAX, EDX    ; Changes zero flag (ZF) to 1 if EAX and EDX not equal │                      ┌┘││││└┐
+└┐││││┌┘        │ JNE    0x40154b    ; If ZF set to 1, jump to 0x40154b                     │                      └┐││││┌┘
+┌┘└┘└┘└┐        └───────────────────────────────────────────────────────────────────────────┘                      ┌┘└┘└┘└┐
+│┌─┐┌─┐│                                                                                                           │┌─┐┌─┐│
+││┌┘└┐││    There are a handful of flags to learn, but a few to get you started are:                               ││┌┘└┐││
+││└┐┌┘││        ZF, "zero flag," set if result is 0.                                                               ││└┐┌┘││
+││┌┘└┐││        SF, "sign flag," set if a result is negative.                                                      ││┌┘└┐││
+└┘└┐┌┘└┘        OF, "overflow flag," set if a result was larger than a register can hold. Let us say AL and DL     └┘└┐┌┘└┘
+┌─┐││┌─┐        are set to 0xFF. ADD AL, DL would return a 9 bit character and therefore overflow the 8 bit        ┌─┐││┌─┐
+└┐││││┌┘        register.                                                                                          └┐││││┌┘
+┌┘││││└┐    Addressing modes                                                                                       ┌┘││││└┐
+└┐││││┌┘        We have a few ways to address things.                                                              └┐││││┌┘
+┌┘└┘└┘└┐            Register addressing, aka using the direct register references. Example: EAX.                   ┌┘└┘└┘└┐
+│┌─┐┌─┐│            Immediate addressing, where we give an immediate value. Example: 0x10                          │┌─┐┌─┐│
+││┌┘└┐││            Memory addressing, where we use a memory address.                                              ││┌┘└┐││
+││└┐┌┘││                Direct memory addressing is when we reference the effective address of a memory location   ││└┐┌┘││
+││┌┘└┐││                directly, eg "JMP 0x401438" jumps directly to memory address 0x401438.                     ││┌┘└┐││
+└┘└┐┌┘└┘                Indirect memory addressing, eg "JMP [EAX]" jumps directly to the memory address stored     └┘└┐┌┘└┘
+┌─┐││┌─┐                in EAX.                                                                                    ┌─┐││┌─┐
+└┐││││┌┘        Addressing examples:                                                                               └┐││││┌┘
+┌┘││││└┐            Register to register (eg, MOV EDX, EAX copies data in EAX to EDX).                             ┌┘││││└┐
+└┐││││┌┘            Register to memory (eg, MOV [EDX], EAX copies data in EAX to memory address in EDX).           └┐││││┌┘
+┌┘└┘└┘└┐            Memory to register (eg, MOV EDX, [EAX] copies the data at memory address in EAX to EDX).       ┌┘└┘└┘└┐
+│┌─┐┌─┐│            Immediate to register (eg, MOV EDX, 0x05 copies hex value 5 to EDX).                           │┌─┐┌─┐│
+││┌┘└┐││            Immediate to memory (eg, MOV [EDX], 0x05 copies hex value 5 to memory address in EDX).         ││┌┘└┐││
+││└┐┌┘││        Note there is no "to immediate." This is because you can store things at a memory location, or     ││└┐┌┘││
+││┌┘└┐││        within a register, but you cannot store things at decimal value "10" for example. Spoken as a      ││┌┘└┐││
+└┘└┐┌┘└┘        analogy, you can store apples in a bucket, you can store apples at a street address for a bucket,  └┘└┐┌┘└┘
+┌─┐││┌─┐        but you can't store apples in an apple.                                                            ┌─┐││┌─┐
+└┐││││┌┘                                                                                                           └┐││││┌┘
+┌┘││││└┐    The Call Stack                                                                                         ┌┘││││└┐
+└┐││││┌┘        The stack is a last in, first out data structure. Think of this like a deck of cards. If we start  └┐││││┌┘
+┌┘└┘└┘└┐        stacking the cards, the card we draw will always be at the top of the stack. Whatever item we      ┌┘└┘└┘└┐
+│┌─┐┌─┐│        placed onto the stack last will be the next to be drawn.                                           │┌─┐┌─┐│
+││┌┘└┐││        Every function has a stack frame which allows each subroutine to behave in an independent          ││┌┘└┐││
+││└┐┌┘││        fashion. As a simple example, one common use of the stack would be function calls. We push our     ││└┐┌┘││
+││┌┘└┐││        parameters on the stack in reverse order; last in, first out, remember?                            ││┌┘└┐││
+└┘└┐┌┘└┘                                                                                                           └┘└┐┌┘└┘
+┌─┐││┌─┐        ┌─────────────────────────────────────────────────────────────────────────┐                        ┌─┐││┌─┐
+└┐││││┌┘        │ PUSH    0x22                    ; Arg3                                  │                        └┐││││┌┘
+┌┘││││└┐        │ PUSH    0x4058b4                ; Arg2                                  │                        ┌┘││││└┐
+└┐││││┌┘        │ PUSH    EAX                     ; Arg1                                  │                        └┐││││┌┘
+┌┘└┘└┘└┐        │ CALL    DWORD [OpenServiceW]    ; AKA OpenServiceW(EAX, 0x4058b4, 0x22) │                        ┌┘└┘└┘└┐
+│┌─┐┌─┐│        │ MOV     ESI, EAX                ; Stores result upon return             │                        │┌─┐┌─┐│
+││┌┘└┐││        └─────────────────────────────────────────────────────────────────────────┘                        ││┌┘└┐││
+││└┐┌┘││                                                                                                           ││└┐┌┘││
+││┌┘└┐││        Stack frames are generally going to have 4 different parts: Parameters, a return address (to       ││┌┘└┐││
+└┘└┐┌┘└┘        wherever your function was called from), your saved EBP, and your local variables (any variables   └┘└┐┌┘└┘
+┌─┐││┌─┐        you use within the function to manipulate data.)                                                   ┌─┐││┌─┐
+└┐││││┌┘        Our ESP and EBP pointers mentioned before are crucial to stack operations.                         └┐││││┌┘
+┌┘││││└┐            EBP always points to the base of the stack frame.                                              ┌┘││││└┐
+└┐││││┌┘            ESP always points to top of stack.                                                             └┐││││┌┘
+┌┘└┘└┘└┐                ESP increases as values are popped off of the stack.                                       ┌┘└┘└┘└┐
+│┌─┐┌─┐│                ESP decreases as values are added to the stack.                                            │┌─┐┌─┐│
+││┌┘└┐││    Simple Overview:                                                                                       ││┌┘└┐││
+││└┐┌┘││        1. When a function is called, the current EBP is pushed onto the stack.                            ││└┐┌┘││
+││┌┘└┐││        2. EBP is then assigned the value of ESP; EBP is now the base pointer to access vars and params.   ││┌┘└┐││
+└┘└┐┌┘└┘        3. As function runs, ESP will change as needed, EBP remains static.                                └┘└┐┌┘└┘
+┌─┐││┌─┐        4. As function terminates, ESP is set to EBP.                                                      ┌─┐││┌─┐
+└┐││││┌┘            Stack pointer is now set to top of stack to equal the base pointer. This frees memory          └┐││││┌┘
+┌┘││││└┐            allocated onthe stack for local vars.                                                          ┌┘││││└┐
+└┐││││┌┘        5. EBP is now popped from the stack (remember, first in last out,) and EBP can be used again as    └┐││││┌┘
+┌┘└┘└┘└┐        base pointer.                                                                                      ┌┘└┘└┘└┐
+│┌─┐┌─┐│        6. In simpler terms, stack frames contain the EBP value of the functions caller (step 1.)          │┌─┐┌─┐│
+││┌┘└┐││            Now we can use EBP register as this function's base pointer.                                   ││┌┘└┐││
+││└┐┌┘││                                                                                                           ││└┐┌┘││
+││┌┘└┐││        How it works graphically and more in depth:                                                        ││┌┘└┐││
+└┘└┐┌┘└┘        ┌───────────────┐                                                                                  └┘└┐┌┘└┘
+┌─┐││┌─┐        │  source_code.c│                                                                                  ┌─┐││┌─┐
+└┐││││┌┘        ┌───────────────────────────────┐                                                                  └┐││││┌┘
+┌┘││││└┐        │#include &lt;stdio.h>             │                                                                  ┌┘││││└┐
+└┐││││┌┘        │                               │                                                                  └┐││││┌┘
+┌┘└┘└┘└┐        │int subtract( int a, int b){   │                                                                  ┌┘└┘└┘└┐
+│┌─┐┌─┐│        │   int c;                      │                                                                  │┌─┐┌─┐│
+││┌┘└┐││        │   c = a - b;                  │                                                                  ││┌┘└┐││
+││└┐┌┘││        │   return c;                   │                                                                  ││└┐┌┘││
+││┌┘└┐││        │}                              │                                                                  ││┌┘└┐││
+└┘└┐┌┘└┘        │                               │                                                                  └┘└┐┌┘└┘
+┌─┐││┌─┐        │int main(){                    │                                                                  ┌─┐││┌─┐
+└┐││││┌┘        │   int a = 10;                 │                                                                  └┐││││┌┘
+┌┘││││└┐        │   int b = 5;                  │                                                                  ┌┘││││└┐
+└┐││││┌┘        │   subtract( a, b); //my start │                                                                  └┐││││┌┘
+┌┘└┘└┘└┐        │   return 0;                   │                                                                  ┌┘└┘└┘└┐
+│┌─┐┌─┐│        │}                              │                                                                  │┌─┐┌─┐│
+││┌┘└┐││        └───────────────────────────────┘                                                                  ││┌┘└┐││
+││└┐┌┘││        Let's use some simple code to show a function we might see in assembly. All we are going to show   ││└┐┌┘││
+││┌┘└┐││        is the subtract function being called and eventually returning a value.                            ││┌┘└┐││
+└┘└┐┌┘└┘                                                                                                           └┘└┐┌┘└┘
+┌─┐││┌─┐        ┌───────────────┐                                                               ┌──────────┐       ┌─┐││┌─┐
+└┐││││┌┘        │       assembly│                                            1 First Steps   mem│call stack│       └┐││││┌┘
+┌┘││││└┐        ┌─────────────────────────────────────────────────────────────────────────┐     ┌──────────┐       ┌┘││││└┐
+└┐││││┌┘        │ #function call                                                          │   32│      0x05│       └┐││││┌┘
+┌┘└┘└┘└┐        │ PUSH 0x05                       ; int A                                 │     ├──────────┤       ┌┘└┘└┘└┐
+│┌─┐┌─┐│        │ PUSH 0x10                       ; int B                                 │   28│      0x10│       │┌─┐┌─┐│
+││┌┘└┐││        │ CALL subtract                   ; Pushes ret adr, jmps to function adr  │     ├──────────┤       ││┌┘└┐││
+││└┐┌┘││        │ ...                                                                     │   24│   ret adr│       ││└┐┌┘││
+││┌┘└┐││        │                                                                         │     ├──────────┤       ││┌┘└┐││
+└┘└┐┌┘└┘        │ #just after function call, set our EBP                                  │   20│       EBP├─ ESP  └┘└┐┌┘└┘
+┌─┐││┌─┐        │ PUSH    EBP                     ; Set EBP                               │     ├──────────┤       ┌─┐││┌─┐
+└┐││││┌┘        │ MOV     EBP, ESP                ; Move ESP to EBP                       │   16│          │       └┐││││┌┘
+┌┘││││└┐        │ ...                                                                     │     ├──────────┤       ┌┘││││└┐
+└┐││││┌┘        To set the scene in our view of assembly, lets talk about the stack on the right. I like to        └┐││││┌┘
+┌┘└┘└┘└┐        envision my stacks as top down, from high memory to low memory. This is also nice because the      ┌┘└┘└┘└┐
+│┌─┐┌─┐│        order in which we read code, top to bottom, is also the order they are shown on the stack          │┌─┐┌─┐│
+││┌┘└┐││        when we visualize them this way. Therefore, if we popped the "top" value off the stack, it would   ││┌┘└┐││
+││└┐┌┘││        be our EBP. On the left side of the stack are some simple memory addresses to assist with our      ││└┐┌┘││
+││┌┘└┐││        stack pointer math. These increment by 4 as our 32 bit addresses and registers are composed of     ││┌┘└┐││
+└┘└┐┌┘└┘        4 bytes. In terms of the code itself, we see that our C function call does a couple things. The    └┘└┐┌┘└┘
+┌─┐││┌─┐        two parameters are pushed to the stack in reverse order, and then we CALL subtract, which is a     ┌─┐││┌─┐
+└┐││││┌┘        symbol representing the memory address where the instructions for the "subtract" function reside.  └┐││││┌┘
+┌┘││││└┐        If this binary was stripped of its symbols, it would look something like "CALL sub_401099," with   ┌┘││││└┐
+└┐││││┌┘        0x401099 being the memory address. Not only does CALL jump to this address however, it also        └┐││││┌┘
+┌┘└┘└┘└┐        pushes the return address (back to the function where this function was called) onto the stack.    ┌┘└┘└┘└┐
+│┌─┐┌─┐│        In simpler terms, call not only sends us to the function code, it also leaves a way back so that   │┌─┐┌─┐│
+││┌┘└┐││        our function can return integer variable "c". Additional hint for when you are hunting for         ││┌┘└┐││
+││└┐┌┘││        functions, you know a function has just been called when you see PUSH EBP followed by MOV EBP,     ││└┐┌┘││
+││┌┘└┐││        ESP.                                                                                               ││┌┘└┐││
+└┘└┐┌┘└┘                                                                                                           └┘└┐┌┘└┘
+┌─┐││┌─┐        ┌───────────────┐                                                               ┌──────────┐       ┌─┐││┌─┐
+└┐││││┌┘        │       assembly│                               2 Creating Local Variables   mem│call stack│       └┐││││┌┘
+┌┘││││└┐        ┌─────────────────────────────────────────────────────────────────────────┐     ┌──────────┐       ┌┘││││└┐
+└┐││││┌┘        │ #function call                                                          │   32│      0x05│       └┐││││┌┘
+┌┘└┘└┘└┐        │ PUSH 0x05                                                               │     ├──────────┤       ┌┘└┘└┘└┐
+│┌─┐┌─┐│        │ PUSH 0x10                                                               │   28│      0x10│       │┌─┐┌─┐│
+││┌┘└┐││        │ CALL subtract                                                           │     ├──────────┤       ││┌┘└┐││
+││└┐┌┘││        │ ...                                                                     │   24│   ret adr│       ││└┐┌┘││
+││┌┘└┐││        │                                                                         │     ├──────────┤       ││┌┘└┐││
+└┘└┐┌┘└┘        │ #just after function call, set our EBP                                  │   20│       EBP│       └┘└┐┌┘└┘
+┌─┐││┌─┐        │ PUSH    EBP                                                             │     ├──────────┤       ┌─┐││┌─┐
+└┐││││┌┘        │ MOV     EBP, ESP                                                        │   16│       EDX│       └┐││││┌┘
+┌┘││││└┐        │ PUSH    EDX                     ; Add EDX for int B                     │     ├──────────┤       ┌┘││││└┐
+└┐││││┌┘        │ PUSH    ECX                     ; Add ECX for int A                     │   12│       ECX│       └┐││││┌┘
+┌┘└┘└┘└┐        │ MOV     EDX, [EBP+0xC]          ; Load int B into EDX                   │     ├──────────┤       ┌┘└┘└┘└┐
+│┌─┐┌─┐│        │ MOV     ECX, [EBP+0x8]          ; Load int A into ECX                   │    8│         C├─ ESP  │┌─┐┌─┐│
+││┌┘└┐││        │ SUB     ESP, 0x4                ; Extend ESP 4 bytes for int C          │     ├──────────┤       ││┌┘└┐││
+││└┐┌┘││        │ ...                                                                     │    4│          │       ││└┐┌┘││
+││┌┘└┐││        We now have our local variables accounted for on the stack. Pushing values not only adds them to   ││┌┘└┐││
+└┘└┐┌┘└┘        the stack, it also advances ESP by 4 bytes each time. We have done this 2 times as well as moved   └┘└┐┌┘└┘
+┌─┐││┌─┐        ESP ourselves, so ESP is now at our memory location 8. Notice also how we are moving the values    ┌─┐││┌─┐
+└┐││││┌┘        from the parameters into our stack registers. EBP is our anchor and gives us a static reference    └┐││││┌┘
+┌┘││││└┐        point for calculating the memory required to access the parameters. EG, [EBP + 0xC] is the memory  ┌┘││││└┐
+└┐││││┌┘        address of our parameter int b. Since EBP will not move we know int b will be 12 bytes higher in   └┐││││┌┘
+┌┘└┘└┘└┐        memory. To show you another way we can make space, we also subtracted 4 bytes from ESP. Do note,   ┌┘└┘└┘└┐
+│┌─┐┌─┐│        this is only one way of expressing this in assembly. Since we typically are not in control of the  │┌─┐┌─┐│
+││┌┘└┐││        compiling process for whatever we are reversing, we may not know what compiler is being used, nor  ││┌┘└┐││
+││└┐┌┘││        how it behaves, and most compilers will probably behave differently from this intentionally        ││└┐┌┘││
+││┌┘└┐││        simplified example.                                                                                ││┌┘└┐││
+└┘└┐┌┘└┘                                                                                                           └┘└┐┌┘└┘
+┌─┐││┌─┐        ┌───────────────┐                                                               ┌──────────┐       ┌─┐││┌─┐
+└┐││││┌┘        │       assembly│                                3 Performing the Function   mem│call stack│       └┐││││┌┘
+┌┘││││└┐        ┌─────────────────────────────────────────────────────────────────────────┐     ┌──────────┐       ┌┘││││└┐
+└┐││││┌┘        │ #function call                                                          │   32│      0x05│       └┐││││┌┘
+┌┘└┘└┘└┐        │ PUSH 0x05                                                               │     ├──────────┤       ┌┘└┘└┘└┐
+│┌─┐┌─┐│        │ PUSH 0x10                                                               │   28│      0x10│       │┌─┐┌─┐│
+││┌┘└┐││        │ CALL subtract                                                           │     ├──────────┤       ││┌┘└┐││
+││└┐┌┘││        │ ...                                                                     │   24│   ret adr│       ││└┐┌┘││
+││┌┘└┐││        │                                                                         │     ├──────────┤       ││┌┘└┐││
+└┘└┐┌┘└┘        │ #just after function call, set our EBP                                  │   20│       EBP│       └┘└┐┌┘└┘
+┌─┐││┌─┐        │ PUSH    EBP                                                             │     ├──────────┤       ┌─┐││┌─┐
+└┐││││┌┘        │ MOV     EBP, ESP                                                        │   16│       EDX│       └┐││││┌┘
+┌┘││││└┐        │ PUSH    EDX                                                             │     ├──────────┤       ┌┘││││└┐
+└┐││││┌┘        │ PUSH    ECX                                                             │   12│       ECX│       └┐││││┌┘
+┌┘└┘└┘└┐        │ MOV     EDX, [EBP+0xC]                                                  │     ├──────────┤       ┌┘└┘└┘└┐
+│┌─┐┌─┐│        │ MOV     ECX, [EBP+0x8]                                                  │    8│         C├─ ESP  │┌─┐┌─┐│
+││┌┘└┐││        │ SUB     ESP, 0x4                                                        │     ├──────────┤       ││┌┘└┐││
+││└┐┌┘││        │ SUB     ECX, EDX                ; A - B, stores value in ECX            │    4│          │       ││└┐┌┘││
+││┌┘└┐││        │ MOV    [EBP-0xC], ECX           ; Move ECX value to int C location      │     ├──────────┤       ││┌┘└┐││
+└┘└┐┌┘└┘        │ MOV     EAX, [EBP-0xC]          ; Move int C to EAX for return          │    0│          │       └┘└┐┌┘└┘
+┌─┐││┌─┐        │ ...                                                                     │     └──────────┘       ┌─┐││┌─┐
+└┐││││┌┘        Here you can see our function being performed. Since we did not assign a register to C, merely a   └┐││││┌┘
+┌┘││││└┐        memory location, we must reference that location when we move our output. Following that, move     ┌┘││││└┐
+└┐││││┌┘        the contents to EAX for return to the main function which originally called subtract( a, b). Nice  └┐││││┌┘
+┌┘└┘└┘└┐        and simple, right?                                                                                 ┌┘└┘└┘└┐
+│┌─┐┌─┐│                                                                                                           │┌─┐┌─┐│
+││┌┘└┐││        ┌───────────────┐                                                               ┌──────────┐       ││┌┘└┐││
+││└┐┌┘││        │       assembly│                              4 Cleaning Up and Returning   mem│call stack│       ││└┐┌┘││
+││┌┘└┐││        ┌─────────────────────────────────────────────────────────────────────────┐     ┌──────────┐       ││┌┘└┐││
+└┘└┐┌┘└┘        │ #function call                                                          │   32│      0x05│       └┘└┐┌┘└┘
+┌─┐││┌─┐        │ PUSH 0x05                                                               │     ├──────────┤       ┌─┐││┌─┐
+└┐││││┌┘        │ PUSH 0x10                                                               │   28│      0x10│       └┐││││┌┘
+┌┘││││└┐        │ CALL subtract                                                           │     ├──────────┤       ┌┘││││└┐
+└┐││││┌┘        │ ...                                                                     │   24│   ret adr├─ ESP  └┐││││┌┘
+┌┘└┘└┘└┐        │                                                                         │     ├──────────┤       ┌┘└┘└┘└┐
+│┌─┐┌─┐│        │ #just after function call, set our EBP                                  │   20│          │       │┌─┐┌─┐│
+││┌┘└┐││        │ PUSH    EBP                                                             │     ├──────────┤       ││┌┘└┐││
+││└┐┌┘││        │ MOV     EBP, ESP                                                        │   16│          │       ││└┐┌┘││
+││┌┘└┐││        │ PUSH    EDX                                                             │     ├──────────┤       ││┌┘└┐││
+└┘└┐┌┘└┘        │ PUSH    ECX                                                             │   12│          │       └┘└┐┌┘└┘
+┌─┐││┌─┐        │ MOV     EDX, [EBP+0xC]                                                  │     ├──────────┤       ┌─┐││┌─┐
+└┐││││┌┘        │ MOV     ECX, [EBP+0x8]                                                  │    8│          │       └┐││││┌┘
+┌┘││││└┐        │ SUB     ESP, 0x4                                                        │     ├──────────┤       ┌┘││││└┐
+└┐││││┌┘        │ SUB     ECX, EDX                                                        │    4│          │       └┐││││┌┘
+┌┘└┘└┘└┐        │ MOV    [EBP-0xC], ECX                                                   │     ├──────────┤       ┌┘└┘└┘└┐
+│┌─┐┌─┐│        │ MOV     EAX, [EBP-0xC]                                                  │    0│          │       │┌─┐┌─┐│
+││┌┘└┐││        │ ADD     ESP, 0x4                ; Removing C                            │     └──────────┘       ││┌┘└┐││
+││└┐┌┘││        │ POP     ECX                     ; Removing A                            │                        ││└┐┌┘││
+││┌┘└┐││        │ POP     EDX                     ; Removing B                            │                        ││┌┘└┐││
+└┘└┐┌┘└┘        │ LEAVE                           ; Pops EBP                              │                        └┘└┐┌┘└┘
+┌─┐││┌─┐        │ RET                             ; Ret to adr ESP is pointing to (main)  │                        ┌─┐││┌─┐
+└┐││││┌┘        └─────────────────────────────────────────────────────────────────────────┘                        └┐││││┌┘
+┌┘││││└┐        So now we have our return value in EAX and wish to return to the function which called this one.   ┌┘││││└┐
+└┐││││┌┘        That address is still in our stack (ret adr). To remove our memory allocated for int C on the      └┐││││┌┘
+┌┘└┘└┘└┐        stack, we can simply add a 4 bytes to the value of ESP, moving it up a slot. We can then pop ECX   ┌┘└┘└┘└┐
+│┌─┐┌─┐│        and EDX, moving us an additional 8 bytes up (back on EBP). LEAVE pops EBP for us which drops ESP   │┌─┐┌─┐│
+││┌┘└┐││        onto the return address, and return will jump us to the return address which ESP is currently      ││┌┘└┐││
+││└┐┌┘││        pointing to. Do note, rather than pop the values and decrement manually we could have used LEAVE   ││└┐┌┘││
+││┌┘└┐││        which firstly shifts ESP to EBP before popping EBP and decrementing ESP by 4 bytes. Just like in   ││┌┘└┐││
+└┘└┐┌┘└┘        higher level programming, there are many roads to the same destination. Upon our return, to        └┘└┐┌┘└┘
+┌─┐││┌─┐        access the return value, we would simply reference EAX.                                            ┌─┐││┌─┐
+└┐││││┌┘        ...to be continued...                                                                              └┐││││┌┘
+        </pre>
+        </center>
+    </body>
+</html>
