@@ -166,7 +166,7 @@
 └┐││││┌┘    Just know that if the byte on the far left would represent the least significant bit it would be       └┐││││┌┘
 ┌┘││││└┐    referred to as little-endian, and if the byte on the far left represented the most significant bit,    ┌┘││││└┐
 └┐││││┌┘    it would be referred to as big-endian. Were we to represent this as a big-endian value, the            └┐││││┌┘
-┌┘└┘└┘└┐    instruction in hex would be "B8 00 00 00 05." PE (.exe) files will always be little-endian, but know   ┌┘└┘└┘└┐
+┌┘└┘└┘└┐    instruction in hex would be "00 00 00 05." PE (.exe) files will always be little-endian, but know      ┌┘└┘└┘└┐
 │┌─┐┌─┐│    that other formats such as ELF may not be.                                                             │┌─┐┌─┐│
 ││┌┘└┐││                                                                                                           ││┌┘└┐││
 ││└┐┌┘││  >What happens when a program is run?                                                                     ││└┐┌┘││
